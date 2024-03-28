@@ -20,6 +20,21 @@ body {
   padding-bottom: 60px;
 }
 
+/* グラデーション背景分割 */
+.gradient-bg {
+  position: relative;
+  height: 160px;
+}
+.gradient-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #000000 5%, #434141 90%);
+}
+
 .section-footer {
   background-color: black;
   height: auto;
