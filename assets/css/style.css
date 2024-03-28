@@ -79,9 +79,9 @@ body {
 }
 
 /* 769以上の設定 */
-@media (min-width: 769px) {
+@media (min-width: 800px) {
   .browser-row {
-    flex-direction: row-wrap; /* ここを変更 */
+    flex-direction: row;
     gap: 30px;
     width: 100%;
   }
