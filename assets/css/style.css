@@ -12,11 +12,25 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.category-black-pb0 {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 0px;
+}
 .category-gray {
   background-color: #434141;
   height: auto;
   width: 100%;
   padding-top: 60px;
+  padding-bottom: 60px;
+}
+.category-gray-pt0 {
+  background-color: #434141;
+  height: auto;
+  width: 100%;
+  padding-top: 0px;
   padding-bottom: 60px;
 }
 
@@ -58,4 +72,12 @@ body {
   .mw450-col {
     flex-direction: column;
   }
+}
+
+/* 概要 */
+ul li.gaiyou {
+  margin-bottom: 60px;
+}
+ul li.gaiyou:last-child {
+  margin-bottom: 0;
 }
