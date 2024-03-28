@@ -33,3 +33,11 @@ body {
     display: none;
   }
 }
+
+@media (max-width: 450px) {
+  .mw450-size12 {
+    font-size: 12px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
