@@ -27,28 +27,31 @@
 </head>
 <body>
     <!-- header -->
-    <header class="flex flex-row w-full justify-center" style="height: 50px; background-color: #000;">
-        <div style="display: flex; justify-content: space-between; height: 40px; width: 80vw;">
-            <div style="width: 60%; background-color: yellow; border-radius: 0 0 0 6px;"> 
-                <p>講演説明会 4月・5月に開催</p></div>
-            <div style="width: 40%; background-color: red; border-radius: 0 0 6px 0;" class="flex flex-row" >
+    <header class="flex flex-row object-cover justify-center" style="height: 0px; background-color: #000;">
+        <div style="display: flex; justify-content: space-between; height: 50px; width: 85%; position: fixed; bottom: 0px; z-index:100;">
+            <div style="width: 60%; background-color: yellow; border-radius: 6px 0 0 0;"> 
+                <p>講演説明会&ensp;4月・5月に開催</p></div>
+            <div style="width: 40%; background-color: red; border-radius: 0 6px 0 0;" class="flex flex-row" >
                 <p>説明会申込</p>
-                <img src="./assets/images/img_icon_mail.png" alt="" srcset="" style="width: 37px; height:29px;">
-            </div>
+                <img src="./assets/images/img_icon_mail.png" alt="" srcset="" style="width: 37px; height:29px;"></div>
         </div>
     </header>
 
     <!-- main -->
     <main>
-        <!------------------------------ 
-            heroimage, 3labels
-        ------------------------------->
-        <!-- 動き -->
-        <div style="background-color: rgb(251, 193, 193); height: auto; width: 100vw;">
-            <div class="relative" style="margin-top: -3px; height:auto;">
-                <img src="./assets/images/img_hero_01.png" alt="" srcset="" class="h-full w-full object-cover">
-                <img src="./assets/images/img_labels.png" alt="" class="absolute top-2/3  pl-2 pr-2" style="background-color: black; height: auto;"></div>
-            </div>
+        <div style="background-color: rgb(117, 194, 10); height: auto; width:100%">
+            <!------------------------------ 
+                heroimage, 3labels
+            ------------------------------->
+            <div>
+                <img src="./assets/images/img_hero_br.png" alt="" srcset="" class="max-width-767px:none; md:visible  w-full object-cover">
+                <div class="flex flex-col justify-center pl-auto pr-auto">
+                    <img src="./assets/images/img_labels_br.png" alt="" class=" max-width-767px:none; md:visible  pl-2 pr-2" style="background-color: black; height: auto; object-fit: cover;"></div>
+                <div>
+                    <img src="./assets/images/img_hero_mo.png" alt="" srcset="" class="md:hidden h-full w-full object-cover">
+                    <img src="./assets/images/img_labels_mo.png" alt="" class="md:hidden pl-2 pr-2" style="background-color: rgb(0, 0, 0); height: auto;">
+                    
+                </div>
         </div>
         <br>
         <br>
@@ -73,7 +76,7 @@
         <section class="category">
             <h1 style="color:white;">特徴</h1>
             <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full">
-            <ul class="pl-10 pr-10 flex flex-col" style="row-gap: 30px;">
+            <ul class=" flex flex-col" style="row-gap: 30px;">
                 <li><img src="./assets/images/img_icon_features01.png" alt="">
                     <p style="color: white;">loremx2<br>
                     loremx4loremx4loremx4</p></li>
@@ -127,17 +130,17 @@
         <img src="./assets/images/img_button_footer.png" alt="" srcset="" class="pl-4 pr-4">
         <p style="color: white;">©Kyoto University Original Co., Ltd. All rights reserved.</p>
     </footer>
-    <div style="background-color: #434141; height:100px; width: 100vw; margin-top: -40px; z-index:120;">
+    <div style="background-color: #434141; height:100px; width: 100%; margin-top: -40px; z-index:120;">
     </div>
-    <div style="background-color: #434141; height:100px; width: 100vw;">
+    <div style="background-color: #434141; height:100px; width: 100%;">
         <img src="./assets/images/img_titledivider_gray.png" alt="" srcset="" class="w-full z-index:0" >
     </div>
-    <div style="background-color: #434141; height:100px; width: 100vw; margin-top: -40px; z-index:120;">
+    <div style="background-color: #434141; height:100px; width: 100%; margin-top: -40px; z-index:120;">
     </div>
-    <div style="background-color: #434141; height:100px; width: 100vw;">
+    <div style="background-color: #434141; height:100px; width: 100%;">
         <img src="./assets/images/img_titledivider_gray.png" alt="" srcset="" class="w-full z-index:0" >
     </div>
-    <div style="background-color: #434141; height:100px; width: 100vw; margin-top: -40px; z-index:120;">
+    <div style="background-color: #434141; height:100px; width: 100%; margin-top: -40px; z-index:120;">
     </div>
     <h1>test コラボレーター</h1>
 

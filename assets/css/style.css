@@ -1,16 +1,28 @@
 @charset "UTF-8";
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
 .category {
-    background-color: black;
-    height:auto;
-    width:100vw;
-    padding-top:60px;
-    padding-bottom:60px;
+  background-color: black;
+  height: auto;
+  width: 100vw;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section-footer {
-    background-color: black;
-    height:auto;
-    width:100vw;
-    padding-top:30px;
-    padding-bottom:30px;
+  background-color: black;
+  height: auto;
+  width: 100vw;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .md\:visible {
+    display: none;
+  }
 }
