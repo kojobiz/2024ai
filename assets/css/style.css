@@ -5,8 +5,15 @@ body {
   margin: 0px;
 }
 
-.category {
+.category-black {
   background-color: black;
+  height: auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.category-gray {
+  background-color: #434141;
   height: auto;
   width: 100%;
   padding-top: 60px;
