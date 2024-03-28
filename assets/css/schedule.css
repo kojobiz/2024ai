@@ -4,6 +4,9 @@
 .lp-bg10 {
   background-color: #ffffff;
 }
+.lp-bg20 {
+  background-color: #f1f1f1;
+}
 .lp-bg30 {
   background-color: #242264;
 }
@@ -13,9 +16,9 @@
   padding: 0px 0px 0px 0px;
 }
 .lp-cnt10-10 {
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
   max-width: 1200px;
-  margin: 0px 0px 0px auto;
+  margin: 0px auto 0px auto;
   padding: 0px 0px 0px 0px;
 }
 .lp-cnt10-20 {
@@ -378,25 +381,14 @@ RESPONSIVE
   /*--------------------------------------------------------------------
 		COMM 
 	--------------------------------------------------------------------*/
-
-  /* カリキュラム */
-  /* .lp-cnt10 {
-    padding: 0px auto 0px auto;
-  } */
-  /* .lp-cnt10-10 {
+  .lp-cnt10 {
+    padding: 0px 0px 0px 0px;
+  }
+  .lp-cnt10-10 {
     width: calc(100% - 40px);
     margin: 0px auto 0px auto;
     padding: 0px 0px 0px 0px;
     background: #f1f1f1;
-  } */
-  /* 768以下の時 */
-  @media screen and (max-width: 769px) {
-    .lp-cnt10-10 {
-      width: calc(100% - 20px);
-      margin: 0px 0px 0px auto;
-      padding: 0px 0px 0px 0px;
-      background: #f1f1f1;
-    }
   }
   .lp-cnt10-20 {
     width: calc(100% - 0px);
