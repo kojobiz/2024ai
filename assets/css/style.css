@@ -84,3 +84,24 @@ ul li.gaiyou {
 ul li.gaiyou:last-child {
   margin-bottom: 0;
 }
+
+.background-image.left {
+  background-image: url("./assets/images/img_bg_degital_left.png");
+  background-repeat: repeat-y;
+  background-size: 40% auto;
+  background-position: left;
+  width: 100%; /* 必要に応じて幅を調整 */
+  height: 100vh; /* 必要に応じて高さを調整 */
+  z-index: 0;
+  padding-top: -3000px;
+}
+
+.background-image.right {
+  background-image: url("./assets/images/img_bg_degital_right.png");
+  background-repeat: repeat-y;
+  background-size: 40% auto;
+  background-position: right;
+  width: 100%; /* 必要に応じて幅を調整 */
+  height: 100vh; /* 必要に応じて高さを調整 */
+  z-index: 0;
+}
