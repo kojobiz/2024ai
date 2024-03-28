@@ -8,7 +8,7 @@ body {
 .category {
   background-color: black;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -16,7 +16,7 @@ body {
 .section-footer {
   background-color: black;
   height: auto;
-  width: 100vw;
+  width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
 }
