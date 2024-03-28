@@ -78,8 +78,8 @@ body {
   }
 }
 
-/* 769以上の設定 */
-@media (min-width: 800px) {
+/* 1500以上の設定 */
+@media (min-width: 1500px) {
   .browser-row {
     flex-direction: row;
     gap: 30px;
