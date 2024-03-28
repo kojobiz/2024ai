@@ -18,6 +18,8 @@ body {
   width: 100%;
   padding-top: 60px;
   padding-bottom: 0px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .category-gray {
   background-color: #434141;
@@ -76,7 +78,8 @@ body {
 
 /* 概要 */
 ul li.gaiyou {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  width: auto;
 }
 ul li.gaiyou:last-child {
   margin-bottom: 0;
