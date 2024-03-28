@@ -30,7 +30,7 @@
 <body>
     <!-- header -->
     <header class="flex flex-row object-cover justify-center" style="height: 0px; background-color: #000;">
-        <div style="display: flex; justify-content: space-between; height: 50px; width: 85%; position: fixed; bottom: 0px; z-index:100;">
+        <div style="display: flex; justify-content: space-between; height: 60px; width: 85%; position: fixed; bottom: 0px; z-index:100;">
             <div style="width: 60%; background-color: rgb(255, 255, 255); border-radius: 6px 0 0 0;" class="flex items-center justify-center"> 
                 <p style="margin: 0;">講演説明会&ensp;4月・5月に開催</p></div>
             <div style="width: 40%; background-image: linear-gradient(to right, #ff303e, #e18712); border-radius: 0 6px 0 0;" class="flex flex-row items-center justify-center gap-2" >
@@ -61,9 +61,9 @@
                 参加者の声
             ------------------------------->
             <section class="category">
-                <h1 style="color:white; text-align: center;">参加者の声</h1> 
-                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full">
-                <ul class="pl-10 pr-10 flex flex-col items-center" style="row-gap: 50px;">
+                <h1 style="color:white; text-align: center;" class="text-2xl">参加者の声</h1> 
+                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full" style="margin-top: -15px;">
+                <ul class="pl-16 pr-16 flex flex-col items-center" style="row-gap: 50px;">
                     <!-- １ -->
                     <li><img src="./assets/images/img_member_01.png" alt="参加者１"></li>
 
@@ -81,13 +81,20 @@
                 </ul>
             </section>
 
+            
+
 
             <!------------------------------
                 特徴 
             ------------------------------->
-            <section class="category">
-                <h1 style="color:white; text-align: center;">特徴</h1>
-                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full">
+            <img src="./assets/images/img_bg_earth.jpg" alt="" srcset="" style="width: 50%;"> 
+            <section class="category" style="margin-top: -250px;">
+                
+                <div style="z-index:200;">
+                <h1 style="color:white; text-align: center;" class="text-2xl">特徴</h1>
+                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full" style="margin-top: -15px;">
+                <p style="color:white; text-align: center;" class="leading-6 pl-4 pr-4">ツールやスキル習得などにとどまらない<br>
+                    人工知能の本質を理解するための講座</p>
                 <ul class=" pl-10 pr-10 flex flex-col items-center" style="row-gap: 50px;" >
                     <!-- 1 -->
                     <li>
@@ -120,6 +127,7 @@
                             <p style="color: white;" class="leading-6">実世界に根ざした問題を解決するために、機械学習のみではなく、「⼈を知るための⼈⼯知能」（知能メディア）、「⼈を知ることによってできる⼈⼯知能」（脳認知科学）に関する体系的な学びを得ることができます。</p>
                         </div></li>
                 </ul>
+                </div>
             </section>
 
 
@@ -127,8 +135,8 @@
                 概要
             ------------------------------->
             <section class="category">
-                <h1 style="color:white; text-align: center;">概要</h1>
-                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full">
+                <h1 style="color:white; text-align: center;" class="text-2xl">概要</h1>
+                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full" style="margin-top: -15px;">
                 <ul class="pl-10 pr-10 flex flex-col" style="row-gap: 50px;">
                     <li><img src="./assets/images/img_lightningflame.png" alt=""></li>
                     
@@ -141,89 +149,75 @@
             ------------------------------->
             <!-- 横スクロール -->
             <section class="category">
-                <h1 style="color:white; text-align: center;">カリキュラム</h1>
-                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full">
-                <p style="color: #fff; text-align: center;">講義と演習を合計7⽇間（1⽇ 90分×5コマ）</p>
-                
+                <h1 style="color:white; text-align: center;" class="text-2xl">カリキュラム</h1>
+                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full" style="margin-top:-15px">
+                <div class="lp-cnt10 lp-bg20">
+                    <div class="lp-cnt10-10">
+                        <p class="lp-ttl40 max-width-767px:none; md:visible;">講義と演習を合計7⽇間（1⽇ 90分×5コマ）</p>
+                        <div class="lp-scroll-h10 pt-4">
+                            <table class="lp-tbl10">
+                                <tr>						
+                                    <td>&nbsp;</td>
+                                    <td>day</td>
+                                    <td>⽇程</td>
+                                    <td>時間</td>
+                                    <td>テーマ</td>
+                                </tr>
+                                <!-- 1 -->
+                                <tr>						
+                                    <td class="td-clr30 lp-clr-whtlbld ">脳認知科学
+                                    </td>
+                                    <td>1</td>
+                                    <td>2024年8月21日（水）</td>
+                                    <td>9:30〜18:00</td>
+                                    <td>心理・認知情報学</td>
+                                </tr>
+                                <!-- 2、３：結合 -->
+                                <tr>
+                                    <td class="td-clr10 lp-clr-whtlbld " rowspan="2">認知システム</td>
+                                    <td>2</td>
+                                    <td>2024年8月28日（水）</td>
+                                    <td>9:30〜18:00</td>
+                                    <td>機械学習</td>
+                                </tr>
+                                <tr>						
+                                    <td>3</td>
+                                    <td>2024年8月29日（⽊）</td>
+                                    <td>9:30〜18:00</td>
+                                    <td>機械学習</td>
+                                </tr>
+                                <!-- 4、５、６：結合 -->
+                                <tr>
+                                    <td class="td-clr20 lp-clr-whtlbld " rowspan="3">知能メディア</td>
+                                    <td>4</td>
+                                    <td>2024年9月4日（水）</td>
+                                    <td>9:30〜18:00</td>
+                                    <td>コンピュータビジョン</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>2024年9月5日（⽊）</td>
+                                    <td>9:30〜18:00</td>
+                                    <td>自然言語処理</td>
+                                </tr>
+                                <tr>						
+                                    <td>6</td>
+                                    <td>2024年9月11日（水）</td>
+                                    <td>9:30〜18:00</td>
+                                    <td>音声技術処理</td>
+                                </tr>
+                                <tr>
+                                    <td class="td-clr30 lp-clr-whtlbld ">脳認知科学</td>
+                                    <td>7</td>
+                                    <td>2024年9月18日（水）</td>
+                                    <td>9:30〜18:00</td>
+                                    <td>脳情報学</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+		        </div>
             </section>
-
-
-
-            <!------------------------------
-                カリキュラム
-            ------------------------------->
-            <!-- 横スクロール -->
-            <!-- schedule -->
-            <div class="lp-cnt10 lp-bg20">
-                <div class="lp-cnt10-10">
-				
-				
-				
-				<!-- <p class="lp-ttl40 max-width-767px:none; md:visible;">講義と演習を合計7⽇間（1⽇ 90分×5コマ）</p> -->
-				<div class="lp-scroll-h10 pt-4">
-					<table class="lp-tbl10">
-						<tr>						
-							<td>&nbsp;</td>
-							<td>day</td>
-							<td>⽇程</td>
-							<td>時間</td>
-							<td>テーマ</td>
-						</tr>
-                        <!-- 1 -->
-						<tr>						
-							<td class="td-clr30 lp-clr-whtlbld ">脳認知科学
-							</td>
-							<td>1</td>
-							<td>2024年8月21日（水）</td>
-							<td>9:30〜18:00</td>
-							<td>心理・認知情報学</td>
-						</tr>
-                        <!-- 2、３：結合 -->
-						<tr>
-							<td class="td-clr10 lp-clr-whtlbld " rowspan="2">認知システム</td>
-							<td>2</td>
-							<td>2024年8月28日（水）</td>
-							<td>9:30〜18:00</td>
-							<td>機械学習</td>
-						</tr>
-						<tr>						
-							<td>3</td>
-							<td>2024年8月29日（⽊）</td>
-							<td>9:30〜18:00</td>
-							<td>機械学習</td>
-						</tr>
-                        <!-- 4、５、６：結合 -->
-						<tr>
-							<td class="td-clr20 lp-clr-whtlbld " rowspan="3">知能メディア</td>
-							<td>4</td>
-							<td>2024年9月4日（水）</td>
-							<td>9:30〜18:00</td>
-							<td>コンピュータビジョン</td>
-						</tr>
-						<tr>
-							<td>5</td>
-							<td>2024年9月5日（⽊）</td>
-							<td>9:30〜18:00</td>
-							<td>自然言語処理</td>
-						</tr>
-						<tr>						
-							<td>6</td>
-							<td>2024年9月11日（水）</td>
-							<td>9:30〜18:00</td>
-							<td>音声技術処理</td>
-						</tr>
-						<tr>
-							<td class="td-clr30 lp-clr-whtlbld ">脳認知科学</td>
-							<td>7</td>
-							<td>2024年9月18日（水）</td>
-							<td>9:30〜18:00</td>
-							<td>脳情報学</td>
-						</tr>
-					</table>
-				</div>
-				
-			</div>
-		</div><!-- /schedule -->
 
 
         
@@ -239,8 +233,8 @@
                 知能情報学6分野
             ------------------------------->
             <section class="category">
-                <h1 style="color:white; text-align: center;">知能情報学6分野</h1>
-                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full">
+                <h1 style="color:white; text-align: center;" class="text-2xl">知能情報学6分野</h1>
+                <img src="./assets/images/img_titledivider_black.png" alt="" class="w-full" style="margin-top: -15px;">
                 <img src="./assets/images/img_sixcontents.png" alt="">
             </section>
             <!-- デザイン -->
