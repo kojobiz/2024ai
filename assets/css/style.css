@@ -71,7 +71,7 @@ body {
 
 /* テストCSS */
 .background-image.left {
-  background-image: url("./assets/images/img_bg_degital_left.png");
+  background-image: url(/assets/images/img_bg_degital_left.png);
   background-repeat: repeat-y;
   background-size: 40% auto;
   background-position: left;
@@ -81,7 +81,7 @@ body {
   padding-top: -3000px;
 }
 .background-image.right {
-  background-image: url("./assets/images/img_bg_degital_right.png");
+  background-image: url(/assets/images/img_bg_degital_right.png);
   background-repeat: repeat-y;
   background-size: 40% auto;
   background-position: right;
@@ -352,6 +352,19 @@ ul li.gaiyou:last-child {
 }
 .w-580px {
   width: 580px
+}
+.bg-gaiyou {
+  background-image: url(/assets/images/img_lightningflame.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  z-index:50;
+}
+.bg-right-a {
+  background-image: url(/assets/images/img_right_a.png);
+  background-repeat: no-repeat;
+  height:100%;
+  z-index:200;
 }
 
 
