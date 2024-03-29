@@ -9,6 +9,55 @@ body {
   font-style: normal;
 }
 
+/* 画像レイヤー */
+.z-50 {
+  z-index:50;
+}
+.header-box {
+  height: 40px;
+  width: 90%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 200;
+}
+.z-200 {
+  z-index:200;
+}
+.lightningflame {
+  style="width: 600px;
+  height: 900px;
+  z-index:50;"
+}
+/* テストCSS */
+.background-image.left {
+  background-image: url("./assets/images/img_bg_degital_left.png");
+  background-repeat: repeat-y;
+  background-size: 40% auto;
+  background-position: left;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  padding-top: -3000px;
+}
+.background-image.right {
+  background-image: url("./assets/images/img_bg_degital_right.png");
+  background-repeat: repeat-y;
+  background-size: 40% auto;
+  background-position: right;
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+}
+.kjc-wrap ..fixUl {
+	position: fixed;
+	right: 0;
+	top: 200px;
+	z-index: 9999;
+}
+
+
+
+/* font */
 .thin {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
@@ -40,6 +89,9 @@ body {
   font-weight: 500;
   font-style: normal;
   }
+
+
+/* 背景 */
 
 .bg-black {
   background-color: #000;
@@ -99,21 +151,13 @@ body {
 .mt--150px {
   margin-top: -150px;
 }
-.z-50 {
-  z-index:50;
-}
+
 .c-white {
   color: #fff;
 }
 
 
-.header-box {
-  height: 40px;
-  width: 90%;
-  position: fixed;
-  bottom: 0px;
-  z-index: 200;
-}
+
 .header-button-left {
   width: 60%;
   background-color: rgb(255, 255, 255);
@@ -255,9 +299,7 @@ body {
     width: 100%;
   }
 }
-.z-200 {
-  z-index:200;
-}
+
 
 /* 概要 */
 ul li.gaiyou {
@@ -267,11 +309,7 @@ ul li.gaiyou {
 ul li.gaiyou:last-child {
   margin-bottom: 0;
 }
-.lightningflame {
-  style="width: 600px;
-  height: 900px;
-  z-index:50;"
-}
+
 .gaiyou-div-common {
   style="width: 50px;
   padding-right:10px;
@@ -292,35 +330,10 @@ ul li.gaiyou:last-child {
   width: 580px
 }
 
-/* テストCSS */
-.background-image.left {
-  background-image: url("./assets/images/img_bg_degital_left.png");
-  background-repeat: repeat-y;
-  background-size: 40% auto;
-  background-position: left;
-  width: 100%;
-  height: 100vh;
-  z-index: 0;
-  padding-top: -3000px;
-}
 
-.background-image.right {
-  background-image: url("./assets/images/img_bg_degital_right.png");
-  background-repeat: repeat-y;
-  background-size: 40% auto;
-  background-position: right;
-  width: 100%;
-  height: 100vh;
-  z-index: 0;
-}
 
 /*  */
-.kjc-wrap ..fixUl {
-	position: fixed;
-	right: 0;
-	top: 200px;
-	z-index: 9999;
-}
+
 .kjc-wrap .fixUl li a {
 	display: block;
 	width: 60px;
