@@ -70,9 +70,7 @@ body {
   color: #fff;
 }
 
-.maxw-60 {
-  max-width: 60%
-}
+
 .header-box {
   height: 60px;
   width: 90%;
@@ -139,6 +137,9 @@ body {
   max-width:320px;
   margin: 0 auto;
   text-align: center"
+}
+.maxw-50 {
+  max-width: 50%
 }
 
 .mw-260px {
