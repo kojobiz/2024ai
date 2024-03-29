@@ -5,6 +5,93 @@ body {
   margin: 0px;
 }
 
+.bg-black {
+  background-color: #000;
+}
+.h-0 {
+  header: 0px;
+}
+.h-auto {
+  height: auto;
+}
+.w-700px {
+  width: 700px;
+}
+.mt--50px {
+  margin-top: -50px;
+}
+.text-center {
+  text-align: center;
+}
+.letter0.3em {
+  letter-spacing: 0.3em;
+}
+.mt--15px {
+  margin-top: -15px;
+}
+.img-right-a {
+  top:-140px;
+  right:0px;
+  height:auto;
+  width:50%;"
+}
+.img-left-a {
+  top: 400px;
+  left: -10px;
+  height: auto;
+  width: 50%;"
+}
+.img-right-b {
+  top: 120px;
+  right: 0px;
+  width: 70%;
+}
+.img-left-b {
+  top:1100px;
+  left:0px;
+  width:80%;
+}
+.rowgap-70px {
+  row-gap: 70px;
+}
+.rowgap-50px {
+  row-gap: 50px;
+}
+.img-test {
+  width:60px;
+}
+.mt--150px {
+  margin-top: -150px;
+}
+.z-50 {
+  z-index:50;
+}
+.c-white {
+  color: #fff;
+}
+
+.header-box {
+  height: 60px;
+  width: 90%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 1000;
+}
+.header-button-left {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px 0 0 0;
+}
+.header-button-right {
+  width: 40%;
+  background-image: linear-gradient(to right, #ff303e, #e18712);
+  border-radius: 0 6px 0 0;
+}
+.icon-size-mail-header {
+  width: 28px;
+  height: 21px;
+}
+
 .category-black {
   background-color: black;
   height: auto;
@@ -36,6 +123,29 @@ body {
   padding-bottom: 60px;
 }
 
+
+/* 特徴 */
+.list-feature-common {
+  style="display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.list-p-feature-common {
+  max-width:320px;
+  margin: 0 auto;
+  text-align: center"
+}
+
+.mw-260px {
+  max-width:260px;
+}
+.m0auto {
+  margin: 0px auto;
+}
+.text-left {
+  text-align:left;
+}
 /* グラデーション背景分割 */
 .gradient-bg {
   position: relative;
@@ -86,6 +196,9 @@ body {
     width: 100%;
   }
 }
+.z-200 {
+  z-index:200;
+}
 
 /* 概要 */
 ul li.gaiyou {
@@ -95,14 +208,42 @@ ul li.gaiyou {
 ul li.gaiyou:last-child {
   margin-bottom: 0;
 }
+.lightningflame {
+  style="width: 600px;
+  height: 900px;
+  z-index:50;"
+}
+.gaiyou-div-common {
+  style="width: 50px;
+  padding-right:10px;
+  padding-top: 4px;
+  width: 25px;
+}
+.tran-50-50 {
+  transform: translate(-50%, -50%);
+}
+.align-self-center {
+  align-self:center; 
+}
+.footer-div {
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.w-580px {
+  width: 580px
+}
+.letter-0.07em {
+  letter-spacing: 0.07em;
+}
 
+/* テストCSS */
 .background-image.left {
   background-image: url("./assets/images/img_bg_degital_left.png");
   background-repeat: repeat-y;
   background-size: 40% auto;
   background-position: left;
-  width: 100%; /* 必要に応じて幅を調整 */
-  height: 100vh; /* 必要に応じて高さを調整 */
+  width: 100%;
+  height: 100vh;
   z-index: 0;
   padding-top: -3000px;
 }
@@ -112,7 +253,7 @@ ul li.gaiyou:last-child {
   background-repeat: repeat-y;
   background-size: 40% auto;
   background-position: right;
-  width: 100%; /* 必要に応じて幅を調整 */
-  height: 100vh; /* 必要に応じて高さを調整 */
+  width: 100%;
+  height: 100vh;
   z-index: 0;
 }
