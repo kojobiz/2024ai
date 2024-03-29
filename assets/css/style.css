@@ -10,24 +10,35 @@ body {
 }
 
 /* 画像レイヤー */
-.z-50 {
-  z-index:50;
+/* 9999 ==== トップページ ==== サイドヘッダー */
+.kjc-wrap ..fixUl {
+	position: fixed;
+	right: 0;
+	top: 200px;
+	z-index: 9999;
 }
+/* 9999 ==== トップページ ==== ダウンヘッダー*/
 .header-box {
   height: 40px;
   width: 90%;
   position: fixed;
   bottom: 0px;
-  z-index: 200;
+  z-index: 9999;
 }
 .z-200 {
   z-index:200;
 }
+
 .lightningflame {
   style="width: 600px;
   height: 900px;
   z-index:50;"
 }
+.z-50 {
+  z-index:50;
+}
+
+
 /* テストCSS */
 .background-image.left {
   background-image: url("./assets/images/img_bg_degital_left.png");
@@ -47,12 +58,6 @@ body {
   width: 100%;
   height: 100vh;
   z-index: 0;
-}
-.kjc-wrap ..fixUl {
-	position: fixed;
-	right: 0;
-	top: 200px;
-	z-index: 9999;
 }
 
 
@@ -92,7 +97,6 @@ body {
 
 
 /* 背景 */
-
 .bg-black {
   background-color: #000;
 }
@@ -151,7 +155,6 @@ body {
 .mt--150px {
   margin-top: -150px;
 }
-
 .c-white {
   color: #fff;
 }
