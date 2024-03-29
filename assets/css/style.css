@@ -19,23 +19,54 @@ body {
 }
 /* 9999 ==== トップページ ==== ダウンヘッダー*/
 .header-box {
-  height: 40px;
+  height: 60px;
   width: 90%;
   position: fixed;
   bottom: 0px;
   z-index: 9999;
 }
-.z-200 {
-  z-index:200;
+/* 9999 ==== トップページ ==== サイドヘッダー */
+.sidebar-box {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999;
+  transform: rotate(90deg);
+  top:300px;
+  margin-left: calc(100% - 40px);
 }
-
+      /* サイドバー使用 */
+      .header-sidebutton-left {
+        width: 60%;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0 0 0 6px;
+      }
+      .header-sidebutton-right {
+        width: 40%;
+        background-image: linear-gradient(to right, #ff303e, #e18712);
+        border-radius: 0 0 6px 0;
+      }
+      /* メディアクエリ */
+      @media screen and (min-width: 768px) {
+        .visible-on-medium {
+            display: block;
+        }
+      }
+/* 9999 ====  */
 .lightningflame {
   style="width: 600px;
   height: 900px;
   z-index:50;"
 }
+/* 50 ==== 特徴コンテンツ ==== */
 .z-50 {
   z-index:50;
+}
+
+/* 20 ==== 背景デジタルイメージ ===== */
+.z-20 {
+  z-index:20;
 }
 
 
@@ -171,17 +202,7 @@ body {
   background-image: linear-gradient(to right, #ff303e, #e18712);
   border-radius: 0 6px 0 0;
 }
-/* サイドバー使用 */
-.header-sidebutton-left {
-  width: 60%;
-  background-color: rgb(255, 255, 255);
-  border-radius: 0 0 6px 0;
-}
-.header-sidebutton-right {
-  width: 40%;
-  background-image: linear-gradient(to right, #ff303e, #e18712);
-  border-radius: 0 6px 0 0;
-}
+
 .icon-size-mail-header {
   width: 28px;
   height: 21px;

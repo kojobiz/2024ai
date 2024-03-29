@@ -40,8 +40,8 @@
                     <img src="./assets/images/img_icon_mail.png" alt="" srcset="" class="icon-size-mail-header"></div>
             </div>
             <!-- ブラウザ用 -->
-            <div class="flex header-box" style="position: fixed; width: 100%; background-color: #ffffff; z-index: 9999; transform: rotate(90deg); top: 430px; margin-left: calc(100% - 40px);">
-                <div class="flex items-center justify-center header-sidebutton-left" style="writing-mode: vertical-rl;"> 
+            <div class="flex sidebar-box z-9999 fixed visible">
+                <div class="flex items-center justify-center header-sidebutton-left"> 
                     <p class="mw450-size m-0 bold">講演説明会&ensp;4月・5月に開催</p></div>
                 
                 <div class="flex flex-row items-center justify-center gap-2 mw450-col header-sidebutton-right">
@@ -212,7 +212,7 @@
             <div class="flex flex-row justify-between absolute " >
                 <img src="./assets/images/img_bg_degital_left.png" alt="" srcset="" class="bg-repeat-y" style="width: 40%; height: auto">
                 <div style="width: 20%"></div>
-                <img src="./assets/images/img_bg_degital_right.png" alt="" srcset="" class="bg-repeat-y" style="width: 40%; height: auto; margin-top:-48px; z-index:20;">
+                <img src="./assets/images/img_bg_degital_right.png" alt="" srcset="" class="bg-repeat-y z-20" style="width: 40%; height: auto; margin-top:-48px; ">
             </div>
         
 
@@ -312,7 +312,7 @@
         <!------------------------------
             フッター
         ------------------------------->
-        <footer class="section-footer flex flex-col justify-center items-center z-200" >
+        <footer class="section-footer flex flex-col justify-center items-center" >
             <!-- ボタン：画像タイプ -->
             <img src="./assets/images/img_button_footer.png" alt="" srcset="" class="pl-4 pr-4">
 
@@ -329,14 +329,6 @@
                 <p class="c-white">©Kyoto University Original Co., Ltd. All rights reserved.</p></div>
              
         </footer>
-
-        <!------------------------------
-            背景：デジタルイメージ
-        ------------------------------->
-        <!-- <div class="gradient-bg"></div>
-        <div style="background-color: #434141; z-index: 2;" class="absolute"></div>
-        <div class="background-image left"></div>
-        <div class="background-image right"></div> -->
     </div>
 </body>
 </html>
