@@ -154,6 +154,12 @@ body {
   padding-bottom: 60px;
 }
 
+/* 参加者の声 */
+.member32 {
+  max-width: 1200px;
+  height:auto;
+}
+
 
 /* 特徴 */
 .list-feature-common {
