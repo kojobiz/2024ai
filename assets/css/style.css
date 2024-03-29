@@ -3,7 +3,30 @@
 body {
   padding: 0px;
   margin: 0px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-style: normal;
 }
+
+.thin {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  }
+.regular {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  }
+.bold {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  }
 
 .bg-black {
   background-color: #000;
@@ -23,8 +46,8 @@ body {
 .text-center {
   text-align: center;
 }
-.letter0.3em {
-  letter-spacing: 0.3em;
+.letter0175 {
+  letter-spacing:0.175em;
 }
 .mt--15px {
   margin-top: -15px;
@@ -236,9 +259,6 @@ ul li.gaiyou:last-child {
 }
 .w-580px {
   width: 580px
-}
-.letter-0.07em {
-  letter-spacing: 0.07em;
 }
 
 /* テストCSS */
