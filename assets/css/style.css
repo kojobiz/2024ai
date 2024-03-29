@@ -21,6 +21,13 @@ body {
   font-weight: 300;
   font-style: normal;
   }
+
+.semibold {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 .bold {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
