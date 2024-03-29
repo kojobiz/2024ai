@@ -15,6 +15,12 @@ body {
   font-weight: 100;
   font-style: normal;
   }
+.thin2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  }
 .regular {
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
@@ -219,8 +225,8 @@ body {
 
 /* 450以下の設定 */
 @media (max-width: 450px) {
-  .mw450-size12 {
-    font-size: 12px;
+  .mw450-size {
+    font-size: 13px;
     padding-left: 3px;
     padding-right: 3px;
     font-weight: 700;
