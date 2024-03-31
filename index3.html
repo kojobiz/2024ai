@@ -30,11 +30,26 @@
 <body>
     <!-- header -->
     <header>
-        <div class="flex flex-row fixed justify-center justify-between header-bar">
-            <div class="header-bar-first">test1</div>
-            <div class="header-bar-second">test2</div></div>
+        <div class=" flex justify-center">
+            <!-- モバイル用 -->
+            <div class="flex  flex-row object-cover justify-center justify-between header-box md:hidden">
+                <div class="flex items-center justify-center header-button-left"> 
+                    <p class=" mw450-size m-0 bold">講演説明会&ensp;4月・5月に開催</p></div>
+                <div class="flex flex-row items-center justify-center gap-2 mw450-col header-button-right" >
+                    <p class="mw450-size c-white bold">説明会申込</p>
+                    <img src="./assets/images/img_icon_mail.png" alt="" srcset="" class="icon-size-mail-header"></div>
+            </div>
+            <!-- ブラウザ用 -->
+            <div class="flex sidebar-box z-9999 fixed md:visible">
+                <div class="flex items-center justify-center header-sidebutton-left"> 
+                    <p class="mw450-size m-0 bold">講演説明会&ensp;4月・5月に開催</p></div>
+                
+                <div class="flex flex-row items-center justify-center gap-2 mw450-col header-sidebutton-right">
+                    <p class="mw450-size c-white bold">説明会申込</p>
+                    <img src="./assets/images/img_icon_mail.png" alt="" srcset="" class="icon-size-mail-header"> </div> 
+            </div> 
+        </div> 
     </header>
-
     <!-- main -->
     <main>
         <!-- 背景レイヤーの塊　z-index 1 -->
