@@ -397,7 +397,7 @@ ul li.gaiyou:last-child {
 	background-color: #b22113;
 }
 /* テストCSS */
-.background-image.left {
+/* .background-image.left {
   background-image: url(/assets/images/img_bg_degital_left.png);
   background-repeat: repeat-y;
   background-size: 40% auto;
@@ -415,4 +415,4 @@ ul li.gaiyou:last-child {
   width: 100%;
   height: 100vh;
   z-index: 0;
-}
+} */
