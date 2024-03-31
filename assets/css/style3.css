@@ -35,6 +35,10 @@ body {
 }
 
 /* 背景処理（上層②←下層①） */
+.background-layer {
+  position: relative;
+}
+
 /* ①：全体グレー */
 .bg-first {
   background-color: pink;
