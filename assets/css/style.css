@@ -35,6 +35,7 @@ body {
   transform: rotate(90deg);
   top:300px;
   margin-left: calc(100% - 40px);
+  
 }
       /* サイドバー使用 */
       .header-sidebutton-left {
