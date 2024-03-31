@@ -24,8 +24,36 @@
 
     <!-- Favicon -->
     <!-- <link rel="icon" type="image/svg+xml" href="./favicon.ico"> -->
+    <style>
+        .vertical-image {
+            position: relative;
+        }
 
+        .bg-second {
+            
+            position: relative;
+            overflow: hidden;
+        
+            margin-top:-40px;
+            
+        }
 
+        .bg-image1 {
+           
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100vw;
+            height: 100%;
+            background-repeat: repeat-y;
+            
+            background-image: url('./assets/images/img_bg_degital_wide.png');
+            background-size: 100vw auto;
+            
+        }
+        
+    </style>
+  
 </head>
 <body>
     <!-- header -->
@@ -36,16 +64,45 @@
     </header>
 
     <!-- main -->
-    <main>
-        <div class="bg-gray-400">test</div>
+    <main class="vertical-image">
+        <div class="bg-first">gray</div>
+        <div class="bg-second">
+            <div>
+                <div class="bg-image1"></div>
 
+                
+            </div>
 
+            
+            <h1 style="height:1200px;">testuo</h1>
+            <h1 style="height:1200px;">testuo</h1>
+            <h1 style="height:1200px;">testuo</h1>
+            <h1 style="height:1200px;">testuo</h1>
+            <h1 style="height:1200px;">testuo</h1>
+            <h1>testuo</h1>
+            <h1>testuo</h1>
+            <h1>testuo</h1>
+        </div>
+        
     </main>
 
     <!-- footer -->
     <footer>
 
     </footer>
+    <!-- <script>
+        // ページ読み込み後に実行
+        document.addEventListener('DOMContentLoaded', function() {
+            // bg-second要素の手前まで画像を縦に繰り返す
+            const bgSecond = document.querySelector('.bg-second');
+            const windowHeight = window.innerHeight;
+            const bgImage = document.createElement('div');
+            bgImage.classList.add('bg-image');
+            bgImage.style.height = windowHeight + 'px';
+            bgSecond.insertBefore(bgImage, bgSecond.firstElementChild);
+        });
+    </script>
+    -->
 </body>
     
 </html>
