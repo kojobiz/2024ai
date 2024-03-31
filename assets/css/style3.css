@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/*　====================
+
+    body,header,footer
+===================== */
+/* body */
 * {
   margin: 0;
 }
@@ -34,9 +39,19 @@ body {
   box-sizing: border-box;
 }
 
+/* color */
+.c-white {
+  color: white;
+}
+
+/*　====================
+
+    setting:background
+===================== */
 /* 背景処理（上層②←下層①） */
 .background-layer {
   position: relative;
+  z-index: 1;
 }
 
 /* ①：全体グレー */
@@ -53,24 +68,19 @@ body {
   margin-top: -40px;
   z-index: 1;
 }
-/* .bg-second {
-  min-height: 100%;
-  height: 100vh;
-  z-index: 2;
-  display: flex;
+.bg-image1 {
   position: absolute;
-  top: 200px;
-  flex-direction: row;
-  justify-content: space-between;
-  repeat
-}
-
-.bg-degital-left {
-  width: 30%;
-  z-index: 2;
-  position: relative;
+  top: 1200px;
+  left: 0;
+  min-width: 100vw;
+  height: 100%;
   background-repeat: repeat-y;
-} */
+
+  background-image: url(/assets/images/img_bg_degital_wide.png);
+  background-size: 100vw auto;
+  z-index: 2;
+  margin-top: -50px;
+}
 
 .bg-second {
   background-color: gray;
@@ -82,8 +92,146 @@ body {
 .bg-black-gradation {
   background-image: linear-gradient(to bottom, #000000 5%, rgba(0, 0, 0, 0));
   height: 2000px;
-  width: 70%;
+  width: 100vw;
   position: absolute;
   top: 800px;
   z-index: 4;
 }
+
+/*　====================
+
+    setting:@mdeia
+===================== */
+/* 767以下の設定 */
+/* md:visibleのものはnoneにする */
+@media (max-width: 767px) {
+  .md\:visible {
+    display: none;
+  }
+}
+
+/* 450以下の設定 */
+@media (max-width: 450px) {
+  .mw450-size {
+    font-size: 13px;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: 700;
+  }
+  .mw450-col {
+    flex-direction: column;
+  }
+}
+
+/* 1500以上の設定 */
+@media (min-width: 1500px) {
+  .browser-row {
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+  }
+}
+
+/*　====================
+
+    section:hero
+===================== */
+/* セクション　hero */
+.contents-layer {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+}
+
+/*　====================
+
+    section:参加者の声
+===================== */
+.category-black {
+  /* background-color: black; */
+  height: auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.category-black-pb0 {
+  /* background-color: black; */
+  height: auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.category-gray {
+  /* background-color: #434141; */
+  height: auto;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.category-gray-pt0 {
+  /* background-color: #434141; */
+  height: auto;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+/* 参加者の声 */
+.member32 {
+  max-width: 1200px;
+  height: auto;
+}
+.img-right-a {
+    top:-140px;
+    right:0px;
+    height:auto;
+    width:50%;"
+  }
+  .img-left-a {
+    top: 400px;
+    left: -10px;
+    height: auto;
+    width: 50%;"
+  }
+  .img-right-b {
+    top: 120px;
+    right: 0px;
+    width: 70%;
+  }
+  .img-left-b {
+    top:1100px;
+    left:0px;
+    width:80%;
+  }
+
+
+/*　====================
+
+    section:特徴
+===================== */
+/* 特徴 */
+.list-feature-common {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .list-p-feature-common {
+    max-width:320px;
+    margin: 0 auto;
+    text-align: center"
+  }
+  .maxw-50 {
+    max-width: 50%
+  }
+  .mw-260px {
+    max-width:260px;
+  }
+  .m0auto {
+    margin: 0px auto;
+  }
+  .text-left {
+    text-align:left;
+  }
