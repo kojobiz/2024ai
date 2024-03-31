@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* header */
+.header-bar {
+  height: 60px;
+  width: calc(100% - 10%);
+  bottom: 0px;
+  z-index: 9999;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.header-bar-first {
+  width: 60%;
+  background-color: rgb(25, 244, 244);
+  border-radius: 6px 0 0 0;
+  box-sizing: border-box;
+}
+.header-bar-second {
+  width: 40%;
+  background-image: linear-gradient(to right, #ff303e, #e18712);
+  border-radius: 0 6px 0 0;
+  box-sizing: border-box;
+}
+
+/* 背景処理（上層②→下層①） */
+/*  */

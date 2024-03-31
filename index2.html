@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/test.css">
+</head>
+<body>
+    
+
+    <!-- header -->
+    <header style="background-color: aqua;">
+        <p>test</p>
+        <div style="z-index: 7;"><img src="./assets/images/img_icon_features01.png" alt="" ></div>
+        
+    </header>
+    
+    <!-- ⑤グリーン上 -->
+    <div id="div1">
+        <h1>Division Element #1</h1>
+        <h2>headerの下に配置されている</h2>
+        <code>
+            position: relative;<br />
+            z-index: 5;
+        </code>
+    </div>
+    
+    <!-- ②グリーン下 -->
+    <div id="div2">
+        <h1>Division Element #2</h1>
+        <code>
+            position: relative;<br />
+            z-index: 2;
+        </code>
+    </div>
+
+    <!-- ④ピンク　大 -->
+    <div id="div3">
+            <!--　⑥最上位　イエロー上  -->
+            <div id="div4">
+                <h1>Division Element #4</h1>
+                <code>
+                position: relative;<br />
+                z-index: 6;
+                </code>
+                <!-- <div><img src="./assets/images/img_icon_features01.png" alt="" style="z-index: 7; box-sizing: border-box; width: 20%;"></div> -->
+            </div>
+            
+            <!-- ④ピンク -->
+            <!--  -->
+            <h1>Division Element #3</h1>
+            <code>
+            position: absolute;<br />
+            z-index: 4;
+            </code>
+            
+            <!-- ①イエロー -->
+            <div id="div5">
+                <h1>Division Element #5</h1>
+                <code>
+                    position: relative;<br />
+                    z-index: 1;
+                </code>
+            </div>
+            
+            <!-- ③ -->
+            <div id="div6">
+            <h1>Division Element #6</h1>
+            <code>
+                position: absolute;<br />
+                z-index: 3;
+            </code>
+            </div>
+      </div>
+      
+</body>
+
+</html>
