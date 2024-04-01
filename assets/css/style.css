@@ -132,9 +132,6 @@ ul li.gaiyou:last-child {
   padding-top: 4px;
   width: 25px;
 }
-.tran-50-50 {
-  transform: translate(-50%, -50%);
-}
 .align-self-center {
   align-self:center; 
 }
@@ -157,6 +154,15 @@ ul li.gaiyou:last-child {
   height:100%;
   z-index:200;
 }
+
+.devidermt-black {
+  margin-top:-10px;
+}
+
+
+
+
+
 
 /* 特徴 ============================== */
 /* 特徴 */
@@ -230,6 +236,7 @@ ul li.gaiyou:last-child {
   .mw450-plrwide {
     padding-left:10px;
     padding-right:10px;
+    width:calc(100% - 20px);
   }
 }
 
@@ -345,9 +352,6 @@ ul li.gaiyou:last-child {
 }
 .letter0175 {
   letter-spacing:0.175em;
-}
-.devider-black {
-  margin-top: -30px;
 }
 
 .mt--150px {
