@@ -161,6 +161,10 @@ ul li.gaiyou:last-child {
 .text-left {
   text-align:left;
 }
+.frame {
+  z-index:800;
+}
+
 
 
 /* グラデーション背景分割　======================= */
