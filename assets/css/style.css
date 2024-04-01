@@ -227,6 +227,10 @@ ul li.gaiyou:last-child {
   .mw450-col {
     flex-direction: column;
   }
+  .mw450-plrwide {
+    padding-left:10px;
+    padding-right:10px;
+  }
 }
 
 /* 1500以上の設定 */
