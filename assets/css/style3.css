@@ -4,7 +4,7 @@
 
     body,header,footer
 ===================== */
-/* body */
+/* body =========================*/
 * {
   margin: 0;
 }
@@ -15,6 +15,14 @@ body {
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  /* background-image: url(/assets/images/img_test_wide.png);
+  background-repeat:repeat;
+  height:100vh; */
+}
+
+/* color ======================= */
+.c-white {
+  color: white;
 }
 
 /* header */
@@ -25,7 +33,7 @@ body {
   bottom: 0px;
   z-index: 9999;
 }
-/* サイドバー使用 */
+/* サイドバー使用 ================ */
 .header-sidebutton-left {
   width: 60%;
   background-color: rgb(255, 255, 255);
@@ -36,14 +44,6 @@ body {
   background-image: linear-gradient(to right, #ff303e, #e18712);
   border-radius: 0 0 6px 0;
 }
-/* メディアクエリ */
-@media screen and (min-width: 768px) {
-  .visible-on-medium {
-      display: block;
-  }
-}
-
-
 .header-bar {
   height: 60px;
   width: calc(100% - 10%);
@@ -68,7 +68,6 @@ body {
   background-image: linear-gradient(to right, #ff303e, #e18712);
   border-radius: 0 6px 0 0;
 }
-
 .icon-size-mail-header {
   width: 28px;
   height: 21px;
@@ -79,10 +78,34 @@ body {
   border-radius: 0 6px 0 0;
   box-sizing: border-box;
 }
+/* メディアクエリ ================ */
+/* （最小768px）769px以上は表示する */
+@media screen and (min-width: 768px) {
+  .visible-on-medium {
+      display: block;
+  }
+}
+/* （最大767px）767px未満はmd\:visibleの場合は */
+@media (max-width: 767px) {
+  .md\:visible {
+    display: none;
+  }
+}
 
-/* color */
-.c-white {
-  color: white;
+
+
+
+/* footer */
+.section-footer {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer-div {
+  margin-top: 20px;
+  padding-bottom: 50px;
 }
 
 /*　====================
@@ -111,7 +134,7 @@ body {
 }
 .bg-image1 {
   position: absolute;
-  top: 1200px;
+  top: 0px;
   left: 0;
   min-width: 100%;
   height: 100%;
@@ -124,7 +147,7 @@ body {
 }
 
 .bg-second {
-  background-color: gray;
+  background-color: #434141;
   position: relative;
   overflow: hidden;
   margin-top: 0px;
@@ -276,3 +299,4 @@ body {
   .text-left {
     text-align:left;
   }
+
