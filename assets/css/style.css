@@ -68,11 +68,31 @@ body {
   z-index:50;
 }
 /* 50 ==== 概要コンテンツ */
-.lightningflame {
-  style="width: 600px;
-  height: 900px;
+.lightningframe {
+  max-width: 600px;
+  height: auto;
   z-index:50;"
+  box-sizing:border-box;
+  position: relative;
 }
+.ul-gaiyou {
+  position: absolute; /* 絶対位置指定 */
+  top: 50%; /* 上端を親要素の中央に */
+  left: 50%; /* 左端を親要素の中央に */
+  transform: translate(calc(50% - 75%), -50%); /* 中央揃え */
+
+
+
+}
+
+
+
+
+
+
+
+
+
 /* 20 ==== 背景デジタルイメージ ===== */
 .z-20 {
   z-index:20;
@@ -126,6 +146,7 @@ ul li.gaiyou:last-child {
   background-image: url(/assets/images/img_lightningflame.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-size:contain;
   height: 100vh;
   z-index:50;
 }
@@ -243,7 +264,7 @@ ul li.gaiyou:last-child {
 .img-left-b {
   top:1100px;
   left:-25px;
-  width:60%;
+  width:70%;
   height:auto;
   transform: rotate(3deg);
 }
