@@ -34,6 +34,17 @@ body {
   bottom: 0px;
   z-index: 9999;
 }
+.sidebar-box {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999;
+  transform: rotate(90deg);
+  top:300px;
+  margin-left: calc(100% - 40px);
+  
+}
 /* サイドバー使用 ================ */
 .header-sidebutton-left {
   width: 60%;
@@ -245,7 +256,7 @@ body {
 
 /* 参加者の声 */
 .voice3x2 {
-  max-width: 850px;
+  max-width: 1000px;
   height: auto;
 }
 .img-right-a {
