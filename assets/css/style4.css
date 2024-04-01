@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.bgsetting {
+body {
   background-color: #434141;
   background-image: url(/assets/images/img_bg_degital_wide.png),
     url(/assets/images/img_right_a.png), url(/assets/images/img_left_a.png);
@@ -22,7 +22,9 @@
   flex-direction: column;
   align-items: center;
 }
-
+/* 
+formarea
+ */
 .formarea {
   width: 100%;
   display: flex;
@@ -37,4 +39,18 @@
   width: 90%;
   background-color: white;
   height: 60px;
+}
+
+/* heroarea */
+.heroarea {
+  background-color: black;
+}
+.labelarea {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: ;
+}
+.labelarea-mobile {
+  max-width: 600px;
 }
