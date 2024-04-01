@@ -242,8 +242,10 @@ ul li.gaiyou:last-child {
 }
 .img-left-b {
   top:1100px;
-  left:0px;
-  width:80%;
+  left:-25px;
+  width:60%;
+  height:auto;
+  transform: rotate(3deg);
 }
 .rowgap-70px {
   row-gap: 70px;
