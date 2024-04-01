@@ -149,6 +149,7 @@ ul li.gaiyou:last-child {
   background-size:contain;
   height: 100vh;
   z-index:50;
+  background-position: center;
 }
 .bg-right-a {
   background-image: url(/assets/images/img_right_a.png);
