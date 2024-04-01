@@ -3,17 +3,20 @@
 body {
   background-color: #434141;
   background-image: url(/assets/images/img_bg_degital_wide.png),
-    url(/assets/images/img_right_a.png), url(/assets/images/img_left_a.png);
+    url(/assets/images/img_right_a.png), url(/assets/images/img_left_a.png),
+    linear-gradient(to bottom, #000000 5%, #434141 90%);
 
-  background-position: top center, top right -20px, top 300px left -50px;
+  background-position: top center, top right -20px, top 300px left -50px,
+    top center;
 
-  background-repeat: repeat-y, repeat-y, no-repeat;
+  background-repeat: repeat-y, repeat-y, no-repeat, repeat;
 
   background-size: 100% auto, 100% auto, 50% auto;
 
   width: 100vw;
   height: 100vh;
   position: relative;
+  background-image: ;
 }
 
 .content {
