@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.container {
+    /* 背景に2つの画像を設定 */
+    background-color: #434141;
+    background-image: url(/assets/images/img_bg_degital_wide.png), url(/assets/images/img_right_a.png),url(/assets/images/img_left_a.png);
+    
+    /* 各背景画像の位置を設定 */
+    background-position: top left, top right, top left;
+    /* 各背景画像の繰り返しを制御 */
+    background-repeat: repeat, repeat-y, no-repeat;
+    /* 背景画像のサイズ調整 */
+    background-size: cover, contain;
+    /* コンテナのサイズ設定（例） */
+    width: 100%;
+    height:100vw; /* Viewport Height: ビューポートの高さ */
+    position: relative; /* 子要素の配置のための基準 */
+  }
+  
+  .content {
+    /* コンテンツCを配置するためのスタイル */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* 必要に応じて他のスタイルを追加 */
+  }
+  
