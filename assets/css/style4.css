@@ -383,34 +383,47 @@ body {
 
 
 @media (min-width: 768px) {
+  /* 参加者の声 =============== */
   .voicearea {
     background-image:
     url(/assets/images/img_right_a.png);
 
-  background-position: 
-  top 20px right -10%;
-  
-  background-repeat: 
-  no-repeat;
-
-  background-size:
-  50% auto;
-
-  width: 100%;
-  height: auto;
-  position: relative;
-
+    background-position: 
+    top 20px right -10%;
     
+    background-repeat: 
+    no-repeat;
+
+    background-size:
+    50% auto;
+
+    width: 100%;
+    height: auto;
+    position: relative;
   }
+  .voicearea img {
+    width:80%;
+    height:auto;
+    margin-left:10%;
+    margin-right:10%;
+  }
+
+  /* 特徴 ==================== */
   .featurearea {
     background-image:none;
     /* background-image:url(/assets/images/img_bg_earth.jpg);
     background-size: 350px auto;
     background-position: top 5% left 10% */
-    background-image: none; 
   }
-
-
+  .mw-290px {
+    max-width:260px;
+    display:inline-block;
+    text-align:left;
+  }
+  .w300 {
+    max-width:300px;
+  }
+  
 }
 
 
