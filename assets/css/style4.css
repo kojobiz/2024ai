@@ -302,11 +302,17 @@ formarea
   margin-top:-6px;
 }
 .summeryarea {
-  min-height:300px;
-  width:70%;
-  margin-right:15%;
-  margin-left:15%;
-  /* background-color: pink; */
+  min-height:0px;
+  width:84%;
+  margin-right:8%;
+  margin-left:8%;
+  background-color: pink;
+  background-image:url(/assets/images/img_lightningflame.png);
+  background-repeat:no-repeat;
+  background-size: 99% auto;
+  background-position:top center;
+  width:auto;
+  height:auto;
 }
 .summery li {
   --max-padding-bottom: 30px;
