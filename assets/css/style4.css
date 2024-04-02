@@ -190,6 +190,8 @@ formarea
   display:flex;
   flex-direction:column;
   gap:20px;
+  text-align: center;
+  text-align:center!important;
 }
 .voice-row {
   display:flex;
