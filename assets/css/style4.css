@@ -154,6 +154,10 @@ formarea
 .contentstemplate img:first-of-type {
   margin-bottom: 50px;
 }
+.mbminus0 {
+  margin-bottom:-0px!important;
+}
+
 
 /* コンテンツ */
 /* 参加者の声 ============================= */
