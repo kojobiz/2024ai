@@ -263,8 +263,10 @@ formarea
 .maxw-50 {
   max-width: 50%
 }
-.mw-260px {
-  max-width:260px;
+.mw-290px {
+  max-width:290px;
+  display:inline-block;
+  text-align:left;
 }
 .rowgap-50px {
   row-gap: 50px;
