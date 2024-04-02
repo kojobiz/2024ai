@@ -132,15 +132,6 @@ body {
 .heroarea {
   background-color: black;
 }
-.labelarea {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: ;
-}
-.labelarea-mobile {
-  max-width: 600px;
-}
 
 /* コンテンツテンプレート ============================ */
 .contentstemplate h1 {
@@ -183,7 +174,7 @@ body {
   url(/assets/images/img_left_a.png);
 
   background-position: 
-  top -70px right -20%, 
+  top -30px right -40%, 
   top 600px left -40px;
 
   background-repeat: 
@@ -241,7 +232,6 @@ body {
 
   padding-bottom:180px;
 }
-
 .featurearea blockquote p {
   color: white;
   font-family: "Noto Sans JP", sans-serif;
@@ -377,23 +367,51 @@ body {
 }
 
 
-/* <767 （未満） */
+/* 767>=（767以下） */
 @media (max-width: 767px) {
   .md\:visible {
     display: none;
   }
 }
 
-/* 768>=（以上、mdと同じ）
+/* 768<=（768以上、mdと同じ）
 @media (min-width: 768px) {
 
   
 } */
 
-/* <767 （未満）*/
-/* @media (max-width: 767px) {
+
+
+@media (min-width: 768px) {
+  .voicearea {
+    background-image:
+    url(/assets/images/img_right_a.png);
+
+  background-position: 
+  top 20px right -10%;
   
-  . {
+  background-repeat: 
+  no-repeat;
+
+  background-size:
+  50% auto;
+
+  width: 100%;
+  height: auto;
+  position: relative;
+
     
   }
-} */
+  .featurearea {
+    background-image:none;
+    /* background-image:url(/assets/images/img_bg_earth.jpg);
+    background-size: 350px auto;
+    background-position: top 5% left 10% */
+    background-image: none; 
+  }
+
+
+}
+
+
+ 
