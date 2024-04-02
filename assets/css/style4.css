@@ -303,6 +303,7 @@ formarea
   padding-bottom: calc(max(40px, var(--max-padding-bottom)));
   width:auto;
   height:auto;
+  
 }
 .summery.flexsizeone {
   width:20%;
@@ -310,6 +311,13 @@ formarea
 .summery.flexsizethree {
   width:60%;
 }
+
+
+
+
+
+
+
 
 
 
