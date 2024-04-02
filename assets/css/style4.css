@@ -162,7 +162,8 @@ formarea
 /* コンテンツ */
 /* 参加者の声 ============================= */
 .voicearea {
-  background-color:pink;
+  background-color:black;
+  /* background-color:pink; */
   background-image:
   url(/assets/images/img_right_a.png),
   url(/assets/images/img_left_a.png);
@@ -200,7 +201,8 @@ formarea
 }
 /* 特徴 ================================= */
 .featurearea {
-  background-color:#92ea9cb8;
+  /* background-color:#92ea9cb8; */
+  background-color:#000000;
   background-image:
   url(/assets/images/img_right_b.png),
   url(/assets/images/img_left_b.png);
@@ -302,7 +304,7 @@ formarea
   width:80%;
   margin-right:10%;
   margin-left:10%;
-  background-color: pink;
+  /* background-color: pink; */
 }
 .summery li {
   --max-padding-bottom: 30px;
