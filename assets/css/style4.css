@@ -294,8 +294,9 @@ formarea
   align-self:center; 
 }
 .summeryarea {
-  height:70vw;
+  height:300px;
   width:100%;
+  background-color: pink;
 }
 .summery li {
   --max-padding-bottom: 60px;
