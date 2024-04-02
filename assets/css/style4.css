@@ -303,7 +303,12 @@ formarea
   width:auto;
   height:auto;
 }
-
+.summery.flexsizeone {
+  width:20%;
+}
+.summery.flexsizethree {
+  width:60%;
+}
 
 
 
