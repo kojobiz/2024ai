@@ -76,6 +76,11 @@ body {
   font-weight: 500;
   font-style: normal;
   }
+
+  /* color */
+.c-white {
+  color:white;
+}
 /* ======================================== */
 
 
@@ -123,8 +128,35 @@ formarea
   max-width: 600px;
 }
 
+/* コンテンツテンプレート ============================ */
+.contentstemplate h1 {
+  font-size:30px;
+  text-align:center;
+  color:white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.contentstemplate {
+  display:flex;
+  flex-direction:flex-column;
+  
+}
+/* テンプレートの最初のdivの余白設定 */
+.contentstemplate div:second-of-type {
+  padding-left: 20%;
+  padding-right: 20%;
+  width:calc(100% - 40%);
+}
+
+/* テンプレートのディバイダー下の余白 */
+.contentstemplate img:first-of-type {
+  margin-bottom: 50px;
+}
 
 /* コンテンツ */
+/* 参加者の声 ============================= */
 .voicearea {
   background-color:pink;
   background-image:
@@ -162,32 +194,64 @@ formarea
 .voicearea li img {
   max-width:60%;
 }
+/* 特徴 ================================= */
+.featurearea {
+  background-color:#92ea9cb8;
+  background-image:
+  url(/assets/images/img_right_b.png),
+  url(/assets/images/img_left_b.png);
 
-.contentstemplate h1 {
-  font-size:30px;
-  text-align:center;
-  color:white;
+  background-position: 
+  top -100px right -20%, 
+  top 600px left -40px;
+
+  background-repeat: 
+  no-repeat, 
+  no-repeat;
+
+  background-size:
+  85% auto, 
+  50% auto;
+
+  width: 100vw;
+  height: auto;
+  position: relative;
+
+  padding-bottom:180px;
+}
+
+.featurearea blockquote p {
+  color: white;
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-.contentstemplate {
-  display:flex;
-  flex-direction:flex-column;
-  
-}
-/* テンプレートの最初のdivの余白設定 */
-.contentstemplate div:second-of-type {
-  padding-left: 20%;
-  padding-right: 20%;
-  width:calc(100% - 40%);
+.featurearea figcaption {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  text-align: left;
 }
 
-/* テンプレートのディバイダー下の余白 */
-.contentstemplate img:first-of-type {
-  margin-bottom: 50px;
+.voice-col {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
 }
+.voice-row {
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+}
+.voicearea li img {
+  max-width:60%;
+}
+
+
+
 
 
 
