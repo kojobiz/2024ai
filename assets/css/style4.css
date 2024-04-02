@@ -279,11 +279,12 @@ formarea
 
 /* 概要 ===================================== */
 .summery li {
-  margin-bottom: 40px;
+  padding-bottom: 60px;
   width: auto;
+  height:auto
 }
 .summery li:last-child {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .summery img {
   width: 50px;
@@ -292,7 +293,6 @@ formarea
   width: 25px;
   align-self:center; 
 }
-
 
 
 
