@@ -278,11 +278,11 @@ formarea
 
 
 /* 概要 ===================================== */
-.summery li {
+/* .summery li {
   padding-bottom: 60px;
   width: auto;
   height:auto
-}
+} */
 .summery li:last-child {
   padding-bottom: 0;
 }
@@ -293,6 +293,17 @@ formarea
   width: 25px;
   align-self:center; 
 }
+.summeryarea {
+  height:70vw;
+  width:100%;
+}
+.summery li {
+  --max-padding-bottom: 60px;
+  padding-bottom: calc(max(40px, var(--max-padding-bottom)));
+  width:auto;
+  height:auto;
+}
+
 
 
 
