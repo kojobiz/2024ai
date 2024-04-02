@@ -146,10 +146,17 @@ formarea
   width: 100vw;
   height: auto;
   position: relative;
+
+  padding-bottom:180px;
 }
-.voicearea ul {
+.voice-col {
   display:flex;
   flex-direction:column;
+  gap:20px;
+}
+.voice-row {
+  display:flex;
+  flex-direction:row;
   gap:20px;
 }
 .voicearea li img {
@@ -164,8 +171,6 @@ formarea
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  
-
 }
 .contentstemplate {
   display:flex;
@@ -183,6 +188,7 @@ formarea
 .contentstemplate img:first-of-type {
   margin-bottom: 50px;
 }
+
 
 
 
@@ -226,12 +232,9 @@ formarea
   }
 }
 
-/* 768>=（以上、mdと同じ） */
-/* @media (min-width: 768px) {
-  . mobile-only {
-    display:block;
+/* 768>=（以上、mdと同じ）
+@media (min-width: 768px) {
 
-  }
   
 } */
 
