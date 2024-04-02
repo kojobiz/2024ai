@@ -87,28 +87,6 @@ body {
   align-items: center;
 }
 
-/* <767 （未満） */
-@media (max-width: 767px) {
-  .md\:visible {
-    display: none;
-  }
-}
-
-/* 768>=（以上、mdと同じ） */
-/* @media (min-width: 768px) {
-  . {
-    
-  }
-  
-} */
-
-/* <767 （未満）*/
-/* @media (max-width: 767px) {
-  
-  . {
-    
-  }
-} */
 
 
 
@@ -166,24 +144,27 @@ formarea
   50% auto;
 
   width: 100vw;
-  height: 100vh;
+  height: auto;
   position: relative;
 }
 .voicearea ul {
   display:flex;
   flex-direction:column;
   gap:20px;
-
 }
 .voicearea li img {
   max-width:60%;
-  
 }
 
 .contentstemplate h1 {
   font-size:30px;
   text-align:center;
   color:white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
 
 }
 .contentstemplate {
@@ -191,10 +172,16 @@ formarea
   flex-direction:flex-column;
   
 }
+/* テンプレートの最初のdivの余白設定 */
 .contentstemplate div:second-of-type {
   padding-left: 20%;
   padding-right: 20%;
   width:calc(100% - 40%);
+}
+
+/* テンプレートのディバイダー下の余白 */
+.contentstemplate img:first-of-type {
+  margin-bottom: 50px;
 }
 
 
@@ -210,14 +197,12 @@ formarea
   linear-gradient(to bottom, #000000 5%, #434141 90%);
 
   background-position: 
-  top -300px center, 
+  top 0px center, 
   top right;
 
   background-repeat: 
   repeat-y, 
-  repeat-y, 
-  no-repeat, 
-  repeat;
+  repeat-y;
 
   background-size: 100% auto, 
   100% auto, 
@@ -232,3 +217,28 @@ formarea
   background-color: black;
   height:500px;
 }
+
+
+/* <767 （未満） */
+@media (max-width: 767px) {
+  .md\:visible {
+    display: none;
+  }
+}
+
+/* 768>=（以上、mdと同じ） */
+/* @media (min-width: 768px) {
+  . mobile-only {
+    display:block;
+
+  }
+  
+} */
+
+/* <767 （未満）*/
+/* @media (max-width: 767px) {
+  
+  . {
+    
+  }
+} */
