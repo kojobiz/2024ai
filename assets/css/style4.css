@@ -87,12 +87,28 @@ body {
   align-items: center;
 }
 
-/*  */
+/* <767 （未満） */
 @media (max-width: 767px) {
   .md\:visible {
     display: none;
   }
 }
+
+/* 768>=（以上、mdと同じ） */
+/* @media (min-width: 768px) {
+  . {
+    
+  }
+  
+} */
+
+/* <767 （未満）*/
+/* @media (max-width: 767px) {
+  
+  . {
+    
+  }
+} */
 
 
 
@@ -182,11 +198,7 @@ formarea
 }
 
 
-/* 768以上の設定（mdと同じ） */
-@media (min-width: 768px) {
 
-  
-}
 
 
 .gradationarea {
