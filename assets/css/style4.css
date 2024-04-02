@@ -299,11 +299,13 @@ formarea
 }
 .summeryarea {
   min-height:300px;
-  width:100%;
+  width:80%;
+  margin-right:10%;
+  margin-left:10%;
   background-color: pink;
 }
 .summery li {
-  --max-padding-bottom: 60px;
+  --max-padding-bottom: 30px;
   padding-bottom: calc(max(40px, var(--max-padding-bottom)));
   width:auto;
   height:auto;
