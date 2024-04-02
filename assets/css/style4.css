@@ -207,7 +207,7 @@ formarea
 
   background-position: 
   top 130px right -50px, 
-  top 1600px left -40px;
+  top 1300px left -30px;
 
   background-repeat: 
   no-repeat, 
@@ -215,7 +215,7 @@ formarea
 
   background-size:
   85% auto, 
-  60% auto;
+  70% auto;
 
   width: 100vw;
   height: auto;
@@ -277,7 +277,14 @@ formarea
 }
 
 
-
+/* 概要 ===================================== */
+.summery li {
+  margin-bottom: 40px;
+  width: auto;
+}
+.summery li:last-child {
+  margin-bottom: 0;
+}
 
 
 
