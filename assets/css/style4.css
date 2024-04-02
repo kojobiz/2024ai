@@ -81,7 +81,6 @@ body {
 .c-white {
   color:white;
 }
-/* ======================================== */
 
 
 
@@ -95,9 +94,7 @@ body {
 
 
 
-/* 
-formarea
- */
+/* フォームボタン ====================================== */
 .formarea {
   width: 100%;
   display: flex;
@@ -107,14 +104,35 @@ formarea
   bottom: 0px;
   justify-content: center;
 }
+.header-box {
+  height: 60px;
+  width: 90%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999;
+}
+.header-button-left {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px 0 0 0;
+}
+.header-button-right {
+  width: 40%;
+  background-image: linear-gradient(to right, #ff303e, #e18712);
+  border-radius: 0 6px 0 0;
+}
+.icon-size-mail-header {
+  width: 28px;
+  height: 21px;
+}
 
-.formarea-buttom {
+/* .formarea-buttom {
   width: 90%;
   background-color: white;
   height: 60px;
-}
+} */
 
-/* heroarea */
+/* heroarea =========================================== */
 .heroarea {
   background-color: black;
 }
