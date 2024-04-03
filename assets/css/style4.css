@@ -387,7 +387,7 @@ body {
   30% auto, 
   100% auto;
 
-  height: 90vh;
+  height: auto;
   position: relative;
  }
 .gradationarea h1 {
