@@ -346,19 +346,24 @@ body {
   background-color: pink;
   background-image:url(/assets/images/img_lightningflame.png);
   background-repeat:no-repeat;
-  background-size: 99% auto;
+  background-size: cover;
+  /* background-size: 99% auto; */
   background-position:top center;
   width:auto;
   height:auto;
+  padding-bottom:50px;
+  padding-top:50px;
 }
 .summery li {
   --max-padding-bottom: 30px;
   padding-bottom: calc(max(40px, var(--max-padding-bottom)));
   width:auto;
   height:auto;
-  
 }
-
+.summery {
+  padding-left:10%;
+  padding-right:10%;
+}
 
 
 
