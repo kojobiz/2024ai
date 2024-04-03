@@ -125,7 +125,27 @@ body {
   width: 28px;
   height: 21px;
 }
-
+/* サイド */
+.sidebar-box {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999;
+  transform: rotate(90deg);
+  top:300px;
+  margin-left: calc(100% - 40px);
+}
+.header-sidebutton-left {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0 0 0 6px;
+}
+.header-sidebutton-right {
+  width: 40%;
+  background-image: linear-gradient(to right, #ff303e, #e18712);
+  border-radius: 0 0 6px 0;
+}
 
 
 /* heroarea =========================================== */
