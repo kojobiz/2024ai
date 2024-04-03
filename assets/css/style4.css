@@ -264,7 +264,6 @@ body {
   height: auto;
   position: relative;
 
-  padding-bottom:180px;
 }
 
 .list-feature-common {
@@ -359,8 +358,10 @@ body {
 /* ①グレー　②デジタル　③右側　④左側 */
 
 .gradationbg {
-  background-image:linear-gradient(to bottom, #000000 70%, #434141 90%);
+  background-image:linear-gradient(to bottom, #000000 20%, #434141 90%);
   background-repeat:no-repeat;
+  width:100%;
+  height:180px;
 }
 
 
@@ -372,8 +373,8 @@ body {
   linear-gradient(to bottom, #434141 90%, #434141 97%);
 
   background-position: 
-  top right -0px, 
-  top left -0px,
+  top right -30px, 
+  top left -30px,
   top -0px center;
 
   background-repeat: 
@@ -381,9 +382,9 @@ body {
   repeat-y,
   no-repeat;
 
-  background-size: 30% auto, 
+  background-size:
   30% auto, 
-  100% auto,
+  30% auto, 
   100% auto;
 
   height: 90vh;
