@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+/* ================================ 
+ レイアウト
+================================ */
 html {
   overflow-x:hidden;
 }
@@ -9,41 +12,11 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-weight:200;
   font-style: normal;
-
-/* ①グレー　②デジタル　③右側　④左側 */
-
-  /* background-color: #434141;
-  background-image: 
-  url(/assets/images/img_bg_degital_wide.png),
-  url(/assets/images/img_right_a.png),
-  url(/assets/images/img_left_a.png),
-  linear-gradient(to bottom, #000000 5%, #434141 90%);
-
-  background-position: 
-  top center, 
-  top right, 
-  top 300px left,
-  top center;
-
-  background-repeat: 
-  repeat-y, 
-  repeat-y, 
-  no-repeat, 
-  repeat;
-
-  background-size: 100% auto, 
-  100% auto, 
-  50% auto;
-
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  background-image: ;*/
 } 
 
-
-/* 共通設定　 =============================== */
-
+/* ================================ 
+ 文字/カラー
+================================ */
 /* font */
 .thin {
   font-family: "Noto Sans JP", sans-serif;
@@ -76,14 +49,14 @@ body {
   font-weight: 500;
   font-style: normal;
   }
-
-  /* color */
+/* color */
 .c-white {
   color:white;
 }
 
-
-
+/* ================================ 
+ コンポーネント/テンプレート
+================================ */
 .content {
   position: absolute;
   display: flex;
@@ -91,10 +64,9 @@ body {
   align-items: center;
 }
 
-
-
-
-/* フォームボタン ====================================== */
+/* ================================ 
+ 申し込みボタン
+================================ */
 .formarea {
   width: 100%;
   display: flex;
@@ -104,61 +76,33 @@ body {
   bottom: 0px;
   justify-content: center;
 }
-.header-box {
+.icon-size-mail-header {
+  width: 28px;
+  height: 21px;
+}
+/* ボトム配置 */
+.form-button {
   height: 60px;
   width: 90%;
   position: fixed;
   bottom: 0px;
   z-index: 9999;
 }
-.header-button-left {
+.form-button-left {
   width: 60%;
   background-color: rgb(255, 255, 255);
   border-radius: 15px 0 0 0;
 }
-.header-button-right {
+.form-button-right {
   width: 40%;
   background-image: linear-gradient(to right, #ff303e, #e18712);
   border-radius: 0 15px 0 0;
 }
-.icon-size-mail-header {
-  width: 28px;
-  height: 21px;
-}
-/* サイド */
-.sidebar-box {
-  height: 40px;
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-  z-index: 9999;
-  transform: rotate(90deg);
-  top:50vw;
-  margin-left: calc(100% - 40px);
-}
+/* サイド配置 */
 .sidebar {
   top:5%;
   left:calc(100% - 45px);
 }
-/* .header-sidebutton-left {
-  width: 30%;
-  background-color: rgb(255, 255, 255);
-  border-radius: 0 0 0 6px;
-}
-.header-sidebutton-right {
-  width: 20%;
-  background-image: linear-gradient(to right, #ff303e, #e18712);
-  border-radius: 0 0 6px 0;
-}
-.header-sidebutton-writing {
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  transform: rotate(270deg);
-  color:blue;
-
-} */
 
 
 /* heroarea =========================================== */
@@ -400,6 +344,14 @@ body {
   font-style: normal;
   letter-spacing:0.3rem
 }
+
+
+/* カリキュラム ============================== */
+.mtminusmore {
+  margin-top:-80px;
+}
+
+
 
 /* 6つの分野 ================================= */
 .sixcurriculum {
