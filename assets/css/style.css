@@ -377,6 +377,21 @@ body {
 /* ================================ 
  フッター
 ================================ */
+/* .footer-copy {
+  display: inline-block; 
+}
+.footer-div {
+  margin-top: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.section-footer {
+  background-color: black;
+  height: auto;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+} */
 
 /* ================================ 
  ＠media
