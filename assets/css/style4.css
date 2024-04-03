@@ -364,8 +364,18 @@ body {
   padding-left:10%;
   padding-right:10%;
 }
-
-
+.mbminus60 {
+  margin-bottom:-60px;
+}
+.mb30 {
+  margin-bottom:30px;
+}
+.mt30 {
+  margin-top:30px;
+}
+.pb25 {
+  padding-bottom:25px;
+}
 
 
 
