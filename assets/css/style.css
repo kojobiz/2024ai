@@ -1,317 +1,22 @@
 @charset "UTF-8";
 
+/* ================================ 
+ レイアウト
+================================ */
+html {
+  overflow-x:hidden;
+}
 body {
   padding: 0px;
   margin: 0px;
   font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
   font-weight:200;
   font-style: normal;
-}
+} 
 
-/* 画像レイヤー */
-/* 9999 ==== トップページ ==== サイドヘッダー */
-.kjc-wrap ..fixUl {
-	position: fixed;
-	right: 0;
-	top: 200px;
-	z-index: 9999;
-}
-/* 9999 ==== トップページ ==== ダウンヘッダー*/
-.header-box {
-  height: 60px;
-  width: 90%;
-  position: fixed;
-  bottom: 0px;
-  z-index: 9999;
-}
-/* 9999 ==== トップページ ==== サイドヘッダー */
-.sidebar-box {
-  height: 40px;
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-  z-index: 9999;
-  transform: rotate(90deg);
-  top:300px;
-  margin-left: calc(100% - 40px);
-  
-}
-      /* サイドバー使用 */
-      .header-sidebutton-left {
-        width: 60%;
-        background-color: rgb(255, 255, 255);
-        border-radius: 0 0 0 6px;
-      }
-      .header-sidebutton-right {
-        width: 40%;
-        background-image: linear-gradient(to right, #ff303e, #e18712);
-        border-radius: 0 0 6px 0;
-      }
-      /* メディアクエリ */
-      @media screen and (min-width: 768px) {
-        .visible-on-medium {
-            display: block;
-        }
-      }
-
-
-/* 参加者の声　===================== */
-.member32 {
-  max-width: 800px;
-  height:auto;
-  z-index:100;
-}
-
-
-/* 50 ==== 特徴コンテンツ ==== */
-.z-50 {
-  z-index:50;
-}
-/* 50 ==== 概要コンテンツ */
-.lightningframe {
-  max-width: 600px;
-  height: auto;
-  z-index:50;"
-  box-sizing:border-box;
-  position: relative;
-}
-.ul-gaiyou {
-  position: absolute; /* 絶対位置指定 */
-  top: 50%; /* 上端を親要素の中央に */
-  left: 50%; /* 左端を親要素の中央に */
-  transform: translate(calc(50% - 75%), -50%); /* 中央揃え */
-
-
-
-}
-
-
-
-
-
-
-
-
-
-/* 20 ==== 背景デジタルイメージ ===== */
-.z-20 {
-  z-index:20;
-}
-
-/* header ========================== */
-.header-button-left {
-  width: 60%;
-  background-color: rgb(255, 255, 255);
-  border-radius: 6px 0 0 0;
-}
-.header-button-right {
-  width: 40%;
-  background-image: linear-gradient(to right, #ff303e, #e18712);
-  border-radius: 0 6px 0 0;
-}
-
-.icon-size-mail-header {
-  width: 28px;
-  height: 21px;
-}
-
-
-
-/* 概要 ===================================*/
-ul li.gaiyou {
-  margin-bottom: 40px;
-  width: auto;
-}
-ul li.gaiyou:last-child {
-  margin-bottom: 0;
-}
-
-.gaiyou-div-common {
-  width: 50px;
-  padding-right:10px;
-  padding-top: 4px;
-  width: 25px;
-}
-.align-self-center {
-  align-self:center; 
-}
-
-.w-580px {
-  width: 580px
-}
-.bg-gaiyou {
-  background-image: url(/assets/images/img_lightningflame.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size:contain;
-  height: 100vh;
-  z-index:50;
-  background-position: center;
-}
-.bg-right-a {
-  background-image: url(/assets/images/img_right_a.png);
-  background-repeat: no-repeat;
-  height:100%;
-  z-index:200;
-}
-
-.devidermt-black {
-  margin-top:-10px;
-}
-
-
-
-
-
-
-/* 特徴 ============================== */
-/* 特徴 */
-.list-feature-common {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.list-p-feature-common {
-  max-width:320px;
-  margin: 0 auto;
-  text-align: center"
-}
-.maxw-50 {
-  max-width: 50%
-}
-.mw-260px {
-  max-width:260px;
-}
-.m0auto {
-  margin: 0px auto;
-}
-.text-left {
-  text-align:left;
-}
-.frame {
-  z-index:800;
-}
-
-
-
-/* グラデーション背景分割　======================= */
-
-.gradient-bg {
-  position: relative;
-  height: 160px;
-}
-.gradient-bg::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(to bottom, #000000 5%, #434141 90%);
-}
-
-
-
-/* @media ================================== */
-/* 767以下の設定 */
-@media (max-width: 767px) {
-  .md\:visible {
-    display: none;
-  }
-}
-
-/* 768以上の設定（mdと同じ） */
-@media (min-width: 768px) {
-  /* .img-left-a {
-    left:-160px;
-    z-index:20;
-  } */
-}
-
-
-
-
-
-
-/* 450以下の設定 */
-@media (max-width: 450px) {
-  .mw450-size {
-    font-size: 13px;
-    padding-left: 3px;
-    padding-right: 3px;
-    font-weight: 700;
-    text-align:center;
-  }
-  .mw450-col {
-    flex-direction: column;
-  }
-  .mw450-plrwide {
-    padding-left:10px;
-    padding-right:10px;
-    width:calc(100% - 20px);
-  }
-}
-
-
-/* 1500以上の設定 */
-@media (min-width: 1500px) {
-  .browser-row {
-    flex-direction: row;
-    gap: 30px;
-    width: 100%;
-  }
-}
-
-
-
-
-
-
-
-/* 背景デコレーション ======================== */
-.img-right-a {
-  top:-140px;
-  right:0px;
-  height:auto;
-  width:50%;"
-}
-.img-left-a {
-  top: 240px;
-  left: -18px;
-  height: auto;
-  width: 50%;"
-}
-.img-right-b {
-  top: 120px;
-  right: 0px;
-  width: 70%;
-}
-.img-left-b {
-  top:1100px;
-  left:-25px;
-  width:70%;
-  height:auto;
-  transform: rotate(3deg);
-}
-.rowgap-70px {
-  row-gap: 70px;
-}
-.rowgap-50px {
-  row-gap: 50px;
-}
-.img-test {
-  width:60%;
-}
-
-
-
-
-
-
-/* 共通設定　 =============================== */
-
+/* ================================ 
+ 文字/カラー
+================================ */
 /* font */
 .thin {
   font-family: "Noto Sans JP", sans-serif;
@@ -344,114 +49,406 @@ ul li.gaiyou:last-child {
   font-weight: 500;
   font-style: normal;
   }
-
-
-/* 背景 */
-.bg-black {
-  background-color: #000;
-}
-.h-0 {
-  header: 0px;
-}
-.h-auto {
-  height: auto;
-}
-.w-700px {
-  width: 700px;
-}
-.mt--50px {
-  margin-top: -50px;
-}
-.text-center {
-  text-align: center;
-}
-.letter0175 {
-  letter-spacing:0.175em;
-}
-
+/* color */
 .c-white {
-  color: #fff;
+  color:white;
 }
 
-/* セクション枠設定 */
-.category-black {
+/* ================================ 
+ コンポーネント/テンプレート
+================================ */
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contentstemplate h1 {
+  font-size:30px;
+  text-align:center;
+  color:white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing:0.3rem
+}
+.contentstemplate {
+  display:flex;
+  flex-direction:flex-column;
+  
+}
+/* テンプレートの最初のdivの余白設定 */
+.contentstemplate div:second-of-type {
+  padding-left: 20%;
+  padding-right: 20%;
+  width:calc(100% - 40%);
+}
+
+/* テンプレートのディバイダー下の余白 */
+.contentstemplate img:first-of-type {
+  margin-bottom: 50px;
+}
+.mbminus0 {
+  margin-bo
+}
+/* ================================ 
+ １：申し込みボタンformarea
+================================ */
+.formarea {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0px;
+  justify-content: center;
+}
+.icon-size-mail-header {
+  width: 28px;
+  height: 21px;
+}
+/* ボトム配置 */
+.form-button {
+  height: 60px;
+  width: 90%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 9999;
+}
+.form-button-left {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px 0 0 0;
+}
+.form-button-right {
+  width: 40%;
+  background-image: linear-gradient(to right, #ff303e, #e18712);
+  border-radius: 0 15px 0 0;
+}
+/* サイド配置 */
+.sidebar {
+  top:5%;
+  left:calc(100% - 45px);
+}
+
+
+/* ================================ 
+ ２：ヒーローエリアheroarea
+================================ */
+.heroarea {
   background-color: black;
+}
+
+
+/* ================================ 
+ 3：参加者の声エリアvoicearea
+================================ */
+.voicearea {
+  background-color:black;
+  /* background-color:pink; */
+  background-image:
+  url(/assets/images/img_right_a.png),
+  url(/assets/images/img_left_a.png);
+
+  background-position: 
+  top -30px right -40%, 
+  top 600px left -40px;
+
+  background-repeat: 
+  no-repeat, 
+  no-repeat;
+
+  background-size:
+  85% auto, 
+  50% auto;
+
+  width: 100vw;
   height: auto;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.category-black-pb0 {
-  background-color: black;
-  height: auto;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 0px;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
+  position: relative;
 
-
-
-
-.category-gray {
-  background-color: #434141;
-  height: auto;
-  width: 100%;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom:180px;
 }
-.category-gray-pt0 {
-  background-color: #434141;
-  height: auto;
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 60px;
-}
-
-/* フッター ========================= */
-.footer-copy {
-  display: inline-block; 
-}
-.footer-div {
-  margin-top: 20px;
-  padding-bottom: 50px;
+.voice-col {
+  display:flex;
+  flex-direction:column;
+  gap:20px;
   text-align: center;
 }
-.section-footer {
-  background-color: black;
+.voice-row {
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+}
+.voicearea li img {
+  padding-left:25%;
+  padding-right:25%;
+}
+
+
+/* ================================ 
+ ４：特徴エリアfeaturearea
+================================ */
+.featurearea {
+  /* background-color:#92ea9cb8; */
+  background-color:#000000;
+  background-image:
+  url(/assets/images/img_right_b.png),
+  url(/assets/images/img_left_b.png);
+
+  background-position: 
+  top 130px right -50px, 
+  top 1300px left -30px;
+
+  background-repeat: 
+  no-repeat, 
+  no-repeat;
+
+  background-size:
+  85% auto, 
+  70% auto;
+
+  width: 100vw;
   height: auto;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  position: relative;
+
+}
+.list-feature-common {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.list-p-feature-common {
+  max-width:320px;
+  margin: 0 auto;
+  text-align: center"
+}
+.maxw-50 {
+  max-width: 50%
+}
+.mw-290px {
+  max-width:290px;
+  display:inline-block;
+  text-align:left;
+}
+.mb14 {
+  margin-bottom:3.5rem;
+}
+.rowgap-50px {
+  row-gap: 110px;
 }
 
 
-/* その他　=========================================== */
+/* ================================ 
+ ５：概要エリアsummeryarea
+================================ */
+.summery li:last-child {
+  padding-bottom: 0;
+}
+.summery img {
+  width: 50px;
+  padding-right:10px;
+  padding-top: 4px;
+  width: 25px;
+  align-self:flex-start; 
+}
+.summery li p {
+  margin-top:-6px;
+}
+.summeryarea {
+  min-height:0px;
+  width:84%;
+  margin-right:8%;
+  margin-left:8%;
+  
+  background-image:url(/assets/images/img_lightningflame.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+  background-position:center;
+  width:auto;
+  height:auto;
+  padding-bottom:50px;
+  padding-top:50px;
+}
+.summery li {
+  --max-padding-bottom: 30px;
+  padding-bottom: calc(max(40px, var(--max-padding-bottom)));
+  width:auto;
+  height:auto;
+}
+.summery {
+  padding-left:10%;
+  padding-right:10%;
+}
+.mbminus60 {
+  margin-bottom:-60px;
+}
+.mb30 {
+  margin-bottom:30px;
+}
+.mt30 {
+  margin-top:30px;
+}
+.pb25 {
+  padding-bottom:25px;
+}
+.pt50 {
+  padding-top:50px;
+}
 
-.kjc-wrap .fixUl li a {
-	display: block;
-	width: 60px;
-	height: 120px;
-	padding:15px 19px 15px 21px;
-	color: #fff;
-	font-weight: bold;
-	font-size: 1.0rem;
-	line-height: 1;
-	box-sizing: border-box;
-	background-color: #f66818;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+
+
+
+
+
+
+
+.gradationbg {
+  background-image:linear-gradient(to bottom, #000000 20%, #434141 90%);
+  background-repeat:no-repeat;
+  width:100%;
+  height:180px;
 }
-.kjc-wrap .fixUl li a:hover {
-	opacity: 0.7;
+
+
+.gradationarea {
+  background-color:#434141;
+  background-image: 
+  url(/assets/images/img_bg_degital_right.png),
+  url(/assets/images/img_bg_degital_left.png),
+  linear-gradient(to bottom, #434141 90%, #434141 97%);
+
+  background-position: 
+  top right -30px, 
+  top left -30px,
+  top -0px center;
+
+  background-repeat: 
+  repeat-y, 
+  repeat-y,
+  no-repeat;
+
+  background-size:
+  30% auto, 
+  30% auto, 
+  100% auto;
+
+  height: auto;
+  position: relative;
+ }
+.gradationarea h1 {
+  font-size:30px;
+  text-align:center;
+  color:white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing:0.3rem
 }
-.kjc-wrap .fixUl li:last-child {
-	margin-top: 10px;
+
+
+/* カリキュラム ============================== */
+.mtminusmore {
+  margin-top:-80px;
 }
-.kjc-wrap .fixUl li:last-child a {
-	padding: 15px 10px 15px 13px;
-	line-height: 1.2;
-	writing-mode: vertical-rl;
-	background-color: #b22113;
+
+
+
+/* 6つの分野 ================================= */
+.sixcurriculum {
+  width:70%;
+  margin: 0 auto;
+  display:block;
+  padding-top:80px;
+  padiing-bottom:80px;
+  }
+.curriculum h1 {
+  font-size:30px;
+  text-align:center;
+  color:white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing:0.3rem
 }
+
+
+
+/* 450>= (450以下) */
+@media (max-width: 450px) {
+  .mw450-size {
+    font-size: 13px;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-weight:700;
+    text-align:center;
+  }
+  .mw450-col {
+    flex-direction: column;
+    overflow: hidden;
+  }
+}
+
+/* 767>=（767以下） */
+@media (max-width: 767px) {
+  .md\:visible {
+    display: none;
+  }
+}
+
+/* 768<=（768以上、mdと同じ) */
+@media (min-width: 768px) {
+  
+  /* 参加者の声 =============== */
+  .voicearea {
+    background-image:
+    url(/assets/images/img_right_a.png);
+
+    background-position: 
+    top 20px right -10%;
+    
+    background-repeat: 
+    no-repeat;
+
+    background-size:
+    50% auto;
+
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-top:160px;
+  }
+  .voicearea img {
+    width:80%;
+    height:auto;
+    margin-left:10%;
+    margin-right:10%;
+  }
+
+  /* 特徴 ==================== */
+  .featurearea {
+    background-image:none;
+    /* background-image:url(/assets/images/img_bg_earth.jpg);
+    background-size: 350px auto;
+    background-position: top 5% left 10% */
+  }
+  .mw-290px {
+    max-width:260px;
+    display:inline-block;
+    text-align:left;
+  }
+  .w300 {
+    max-width:300px;
+  }
+  .mb14 {
+    margin-bottom:0px;
+  }
+  
+}
+
+
+ 
