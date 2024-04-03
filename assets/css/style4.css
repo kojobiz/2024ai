@@ -382,6 +382,7 @@ body {
 
   background-size: 30% auto, 
   30% auto, 
+  100% auto,
   100% auto;
 
   height: 90vh;
@@ -402,6 +403,23 @@ body {
   letter-spacing:0.3rem
 }
 
+/* 6つの分野 ================================= */
+.sixcurriculum {
+  width:60%;
+  margin: 0 auto;
+  display:block;
+  padding-top:80px;
+  }
+.curriculum h1 {
+  font-size:30px;
+  text-align:center;
+  color:white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing:0.3rem
+}
 
 
 
