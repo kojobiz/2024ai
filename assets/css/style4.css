@@ -356,14 +356,14 @@ body {
 .gradationarea {
   /* ①グレー　②デジタル　③右側　④左側 */
 
-  background-color: #434141;
+  background-color:#434141;
   background-image: 
   url(/assets/images/img_bg_degital_wide.png),
   linear-gradient(to bottom, #000000 5%, #434141 90%);
 
   background-position: 
-  top 0px center, 
-  top right;
+  top center, 
+  top -130px right;
 
   background-repeat: 
   repeat-y, 
@@ -373,7 +373,6 @@ body {
   100% auto, 
   50% auto;
 
-  width: 100vw;
   height: 100vh;
   position: relative;
   background-image: ;
@@ -382,6 +381,20 @@ body {
   background-color: black;
   height:500px;
 }
+.gradationarea h1 {
+  font-size:30px;
+  text-align:center;
+  color:white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing:0.3rem
+}
+
+
+
+
 
 
 /* 767>=（767以下） */
