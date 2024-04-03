@@ -356,31 +356,37 @@ body {
 
 
 
+/* ①グレー　②デジタル　③右側　④左側 */
+
+.gradationbg {
+  background-mage:url(/assets/images/img_gradation.png);
+}
+
 
 .gradationarea {
-  /* ①グレー　②デジタル　③右側　④左側 */
-
   background-color:#434141;
   background-image: 
-  url(/assets/images/img_bg_degital_wide.png),
-  linear-gradient(to bottom, #000000 5%, #434141 90%);
+  url(/assets/images/img_bg_degital_right.png),
+  url(/assets/images/img_bg_degital_left.png),
+  linear-gradient(to bottom, #000000 3%, #434141 97%);
 
   background-position: 
-  top center, 
-  top -130px right;
+  top right -0px, 
+  top left -0px,
+  top -0px center;
 
   background-repeat: 
   repeat-y, 
-  repeat-y;
+  repeat-y,
+  no-repeat;
 
-  background-size: 100% auto, 
-  100% auto, 
-  50% auto;
+  background-size: 30% auto, 
+  30% auto, 
+  100% auto;
 
-  height: 100vh;
+  height: 90vh;
   position: relative;
-  background-image: ;
-}
+ }
 .graone {
   background-color: black;
   height:500px;
@@ -395,6 +401,7 @@ body {
   font-style: normal;
   letter-spacing:0.3rem
 }
+
 
 
 
