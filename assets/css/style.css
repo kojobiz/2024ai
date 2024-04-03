@@ -11,7 +11,7 @@ body {
 
 /* 画像レイヤー */
 /* 9999 ==== トップページ ==== サイドヘッダー */
-.kjc-wrap ..fixUl {
+.lp-wrap ..fixUl {
 	position: fixed;
 	right: 0;
 	top: 200px;
@@ -429,7 +429,7 @@ ul li.gaiyou:last-child {
 
 /* その他　=========================================== */
 
-.kjc-wrap .fixUl li a {
+.lp-wrap .fixUl li a {
 	display: block;
 	width: 60px;
 	height: 120px;
@@ -443,13 +443,13 @@ ul li.gaiyou:last-child {
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 }
-.kjc-wrap .fixUl li a:hover {
+.lp-wrap .fixUl li a:hover {
 	opacity: 0.7;
 }
-.kjc-wrap .fixUl li:last-child {
+.lp-wrap .fixUl li:last-child {
 	margin-top: 10px;
 }
-.kjc-wrap .fixUl li:last-child a {
+.lp-wrap .fixUl li:last-child a {
 	padding: 15px 10px 15px 13px;
 	line-height: 1.2;
 	writing-mode: vertical-rl;
