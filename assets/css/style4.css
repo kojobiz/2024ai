@@ -262,35 +262,7 @@ body {
 
   padding-bottom:180px;
 }
-/* .featurearea blockquote p {
-  color: white;
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-.featurearea figcaption {
-  color: white;
-  font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
-  text-align: left;
-} */
-/* 
-.voice-col {
-  display:flex;
-  flex-direction:column;
-  gap:20px;
-}
-.voice-row {
-  display:flex;
-  flex-direction:row;
-  gap:20px;
-}
-.voicearea li img {
-  max-width:60%;
-} */
+
 .list-feature-common {
   display: flex;
   flex-direction: column;
@@ -319,11 +291,7 @@ body {
 
 
 /* 概要 ===================================== */
-/* .summery li {
-  padding-bottom: 60px;
-  width: auto;
-  height:auto
-} */
+
 .summery li:last-child {
   padding-bottom: 0;
 }
@@ -333,7 +301,6 @@ body {
   padding-top: 4px;
   width: 25px;
   align-self:flex-start; 
-  
 }
 .summery li p {
   margin-top:-6px;
@@ -343,7 +310,7 @@ body {
   width:84%;
   margin-right:8%;
   margin-left:8%;
-  background-color: pink;
+  /* background-color: pink; */
   background-image:url(/assets/images/img_lightningflame.png);
   background-repeat:no-repeat;
   background-size: cover;
@@ -376,7 +343,9 @@ body {
 .pb25 {
   padding-bottom:25px;
 }
-
+.pt50 {
+  padding-top:50px;
+}
 
 
 
