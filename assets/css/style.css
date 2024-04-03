@@ -299,20 +299,15 @@ body {
 }
 
 
-
-
-
-
-
-
+/* ================================ 
+ グラデーションエリアgradationarea
+================================ */
 .gradationbg {
   background-image:linear-gradient(to bottom, #000000 20%, #434141 90%);
   background-repeat:no-repeat;
   width:100%;
   height:180px;
 }
-
-
 .gradationarea {
   background-color:#434141;
   background-image: 
@@ -350,14 +345,17 @@ body {
 }
 
 
-/* カリキュラム ============================== */
+/* ================================ 
+ 6：カリキュラム
+================================ */
 .mtminusmore {
   margin-top:-80px;
 }
 
 
-
-/* 6つの分野 ================================= */
+/* ================================ 
+ ７：知能情報学6分野
+================================ */
 .sixcurriculum {
   width:70%;
   margin: 0 auto;
@@ -376,7 +374,13 @@ body {
   letter-spacing:0.3rem
 }
 
+/* ================================ 
+ フッター
+================================ */
 
+/* ================================ 
+ ＠media
+================================ */
 
 /* 450>= (450以下) */
 @media (max-width: 450px) {
@@ -403,7 +407,7 @@ body {
 /* 768<=（768以上、mdと同じ) */
 @media (min-width: 768px) {
   
-  /* 参加者の声 =============== */
+  /* 参加者の声エリア */
   .voicearea {
     background-image:
     url(/assets/images/img_right_a.png);
@@ -429,12 +433,9 @@ body {
     margin-right:10%;
   }
 
-  /* 特徴 ==================== */
+  /* 特徴エリア */
   .featurearea {
     background-image:none;
-    /* background-image:url(/assets/images/img_bg_earth.jpg);
-    background-size: 350px auto;
-    background-position: top 5% left 10% */
   }
   .mw-290px {
     max-width:260px;
@@ -449,6 +450,3 @@ body {
   }
   
 }
-
-
- 
