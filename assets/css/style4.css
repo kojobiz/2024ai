@@ -146,6 +146,14 @@ body {
   background-image: linear-gradient(to right, #ff303e, #e18712);
   border-radius: 0 0 6px 0;
 }
+.header-sidebutton-writing {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  transform: rotate(270deg);
+
+}
 
 
 /* heroarea =========================================== */
