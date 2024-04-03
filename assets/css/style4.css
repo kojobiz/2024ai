@@ -378,8 +378,20 @@ body {
 
 
 
-
-
+/* 450>= (450以下) */
+@media (max-width: 450px) {
+  .mw450-size {
+    font-size: 13px;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-weight:700;
+    text-align:center;
+  }
+  .mw450-col {
+    flex-direction: column;
+    overflow: hidden;
+  }
+}
 
 /* 767>=（767以下） */
 @media (max-width: 767px) {
