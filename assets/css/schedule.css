@@ -107,10 +107,11 @@
 /* 追加 */
 .kjc-wrap {
   position: relative;
-  top: 103px;
+  /* top: 103px; */
   height: 100%;
   margin: 0px auto;
   padding: 0px 0px;
+  margin-top:-4%;
 }
 .kjc-wrap .fixUl {
   position: fixed;
@@ -144,9 +145,9 @@
   writing-mode: vertical-rl;
   background-color: #b22113;
 }
-.kjc-wrap {
+/* .kjc-wrap {
   top: min(calc((100vw - 70px) * 0.1586 + 20px), 83px);
-}
+} */
 .kjc-wrap .fixUl {
   top: auto;
   bottom: 0px !important;

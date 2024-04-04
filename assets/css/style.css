@@ -361,9 +361,6 @@ body {
  6：カリキュラム
  7：知能情報学6分野
 ================================ */
-.mtminusmore {
-  margin-top:-130px;
-}
 .sixcurriculum {
   width:70%;
   margin: 0 auto;
@@ -418,6 +415,7 @@ body {
     flex-direction: column;
     overflow: hidden;
   }
+  
 }
 
 /* 767>=（767以下） */
