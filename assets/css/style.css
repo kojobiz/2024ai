@@ -232,6 +232,7 @@ body {
   text-align: center;
 }
 .maxw-50 {
+  min-width:220px;
   max-width:60%;
 }
 .maxw-70 {
