@@ -91,6 +91,11 @@ body {
 .mbminus0 {
   margin-bottom: 0px;
 }
+/* 画像の中央寄せ */
+.mc {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* ================================ 
  １：申し込みボタンformarea
 ================================ */
@@ -157,7 +162,7 @@ body {
 
   background-size: 85% auto, 50% auto;
 
-  width: 100vw;
+  width: 100%;
   height: auto;
   position: relative;
 
@@ -197,7 +202,7 @@ body {
 
   background-size: 85% auto, 70% auto;
 
-  width: 100vw;
+  width: 100%;
   height: auto;
   position: relative;
 }
