@@ -87,10 +87,10 @@ body {
 
 /* テンプレートのディバイダー下の余白 */
 .contentstemplate img:first-of-type {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 .mbminus0 {
-  margin-bo
+  margin-bottom:0px;
 }
 /* ================================ 
  １：申し込みボタンformarea
@@ -212,7 +212,6 @@ body {
   width: 100vw;
   height: auto;
   position: relative;
-
 }
 .list-feature-common {
   display: flex;
@@ -233,12 +232,13 @@ body {
   display:inline-block;
   text-align:left;
 }
-.mb14 {
-  margin-bottom:3.5rem;
+.mt3 {
+  margin-top:-3%;
 }
 .rowgap-50px {
   row-gap: 110px;
 }
+
 
 
 /* ================================ 
@@ -460,6 +460,7 @@ body {
   .mb14 {
     margin-bottom:0px;
   }
+  
 
   /* 知能情報学6分野 */
   .sixcurriculum {
