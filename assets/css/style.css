@@ -231,7 +231,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-.maxw-50 {
+.maxw-br {
   min-width:220px;
   max-width:60%;
 }
