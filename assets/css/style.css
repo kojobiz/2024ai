@@ -298,10 +298,10 @@ body {
  グラデーションエリアgradationarea
 ================================ */
 .gradationbg {
-  background-image: linear-gradient(to bottom, #000000 20%, #434141 90%);
+  background-image: linear-gradient(to bottom, #000000 2%, #434141 90%);
   background-repeat: no-repeat;
   width: 100%;
-  height: 180px;
+  height: 80px;
 }
 .gradationarea {
   background-color: #434141;
