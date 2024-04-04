@@ -138,6 +138,7 @@ body {
 ================================ */
 .heroarea {
   background-color: black;
+  padding-bottom:45px;
 }
 
 
@@ -439,7 +440,7 @@ body {
     width: 100%;
     height: auto;
     position: relative;
-    padding-top:160px;
+    padding-top:50px;
   }
   .voicearea img {
     width:80%;
