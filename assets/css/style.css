@@ -87,7 +87,7 @@ body {
 
 /* テンプレートのディバイダー下の余白 */
 .contentstemplate img:first-of-type {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .mbminus0 {
   margin-bo
@@ -138,7 +138,7 @@ body {
 ================================ */
 .heroarea {
   background-color: black;
-  padding-bottom:45px;
+  padding-bottom:40px;
 }
 
 
