@@ -275,8 +275,8 @@ body {
   height: auto;
 }
 .summery {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 9%;
+  padding-right: 9%;
 }
 .mbminus60 {
   margin-bottom: -60px;
@@ -398,6 +398,11 @@ body {
 
 /* 768<=（768以上、mdと同じ) */
 @media (min-width: 768px) {
+  /* ヒーローエリア */
+  .heroarea {
+    padding-bottom: 0px;
+  }
+
   /* 参加者の声エリア */
   .voicearea {
     background-image: url(/assets/images/img_right_a.png);
