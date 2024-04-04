@@ -260,11 +260,11 @@ body {
 
   background-image: url(/assets/images/img_lightningflame.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 
   background-position: center;
   width: auto;
-  height: auto;
+  height: 100%;
   padding-bottom: 50px;
   padding-top: 50px;
 }
@@ -434,6 +434,16 @@ body {
   }
   .mb14 {
     margin-bottom: 0px;
+  }
+
+  /* 概要エリア */
+  .summeryarea {
+    min-height: 0px;
+    width: 766px;
+    background-size: 766px 320px;
+    height: 320px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   /* カリキュラムエリア */
