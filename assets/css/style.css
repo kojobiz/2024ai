@@ -348,15 +348,11 @@ body {
 
 /* ================================ 
  6：カリキュラム
+ 7：知能情報学6分野
 ================================ */
 .mtminusmore {
   margin-top:-80px;
 }
-
-
-/* ================================ 
- ７：知能情報学6分野
-================================ */
 .sixcurriculum {
   width:70%;
   margin: 0 auto;
@@ -364,13 +360,13 @@ body {
   padding-top:80px;
   padiing-bottom:80px;
   }
-.curriculum h1 {
-  font-size:30px;
+.curriculum p {
+  font-size:23px;
   text-align:center;
   color:white;
   font-family: "Noto Sans JP", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   letter-spacing:0.3rem
 }
@@ -463,6 +459,11 @@ body {
   }
   .mb14 {
     margin-bottom:0px;
+  }
+
+  /* 知能情報学6分野 */
+  .sixcurriculum {
+    max-width:500px;
   }
   
 }
