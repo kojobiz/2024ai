@@ -74,8 +74,8 @@ body {
   letter-spacing:0.3rem
 }
 .contentstemplate {
-  display:flex;
-  flex-direction:flex-column;
+  /* display:flex;
+  flex-direction:flex-column; */
   
 }
 /* テンプレートの最初のdivの余白設定 */
@@ -139,6 +139,10 @@ body {
 .heroarea {
   background-color: black;
   padding-bottom:40px;
+  align-items:center;
+  text-align:center;
+  display:flex;
+  justify-content:center;
 }
 
 
