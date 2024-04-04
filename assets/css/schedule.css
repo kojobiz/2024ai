@@ -283,5 +283,11 @@
 .kjc-bg20 {
   background-color: #f1f1f1;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 0%;
+}
+
+@media (min-width: 768px) {
+  .kjc-bg20 {
+    margin-right: 5%;
+  }
 }
