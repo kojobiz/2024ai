@@ -151,7 +151,6 @@ body {
 ================================ */
 .voicearea {
   background-color:black;
-  /* background-color:pink; */
   background-image:
   url(/assets/images/img_right_a.png),
   url(/assets/images/img_left_a.png);
@@ -189,6 +188,10 @@ body {
   padding-left:25%;
   padding-right:25%;
 }
+.pb30 {
+  padding-bottom: 30px;
+}
+
 
 
 /* ================================ 
