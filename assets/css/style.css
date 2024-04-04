@@ -229,13 +229,13 @@ body {
 .list-p-feature-common {
   max-width:320px;
   margin: 0 auto;
-  text-align: center"
+  text-align: center;
 }
 .maxw-50 {
-  max-width: 50%
+  max-width:60%;
 }
 .maxw-70 {
-  max-width: 70%
+  max-width: 70%;
 }
 .mw-290px {
   max-width:290px;
