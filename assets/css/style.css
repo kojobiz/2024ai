@@ -225,6 +225,9 @@ body {
   text-align: center"
 }
 .maxw-50 {
+  max-width: 50%
+}
+.maxw-70 {
   max-width: 70%
 }
 .mw-290px {
