@@ -218,7 +218,7 @@
 }
 .kjc-tbl10 {
   width: 100%;
-  min-width: 980px;
+  /* min-width: 980px; */
   margin: 0px 0px 10px 0px;
 }
 .kjc-tbl10 tr:first-child td:nth-child(1) {
@@ -283,4 +283,5 @@
 .kjc-bg20 {
   background-color: #f1f1f1;
   margin-left: 5%;
+  margin-right:5%;
 }
