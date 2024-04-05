@@ -153,8 +153,8 @@ body {
 ================================ */
 .voicearea {
   background-color: black;
-  background-image: url(/assets/images/img_right_a.png),
-    url(/assets/images/img_left_a.png);
+  background-image: url(../images/img_right_a.png),
+    url(../images/img_left_a.png);
 
   background-position: top -30px right -40%, top 600px left -40px;
 
@@ -193,8 +193,8 @@ body {
 .featurearea {
   /* background-color:#92ea9cb8; */
   background-color: #000000;
-  background-image: url(/assets/images/img_right_b.png),
-    url(/assets/images/img_left_b.png);
+  background-image: url(../images/img_right_b.png),
+    url(../images/img_left_b.png);
 
   background-position: top 130px right -50px, top 1300px left -30px;
 
@@ -258,7 +258,7 @@ body {
   margin-right: 8%;
   margin-left: 8%;
 
-  background-image: url(/assets/images/img_lightningflame.png);
+  background-image: url(../images/img_lightningflame.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
@@ -305,8 +305,8 @@ body {
 }
 .gradationarea {
   background-color: #434141;
-  background-image: url(/assets/images/img_bg_degital_right.png),
-    url(/assets/images/img_bg_degital_left.png),
+  background-image: url(../images/img_bg_degital_right.png),
+    url(../images/img_bg_degital_left.png),
     linear-gradient(to bottom, #434141 90%, #434141 97%);
 
   background-position: top right -30px, top left -30px, top -0px center;
@@ -405,7 +405,7 @@ body {
 
   /* 参加者の声エリア */
   .voicearea {
-    background-image: url(/assets/images/img_right_a.png);
+    background-image: url(../images/img_right_a.png);
 
     background-position: top 20px right -10%;
 
